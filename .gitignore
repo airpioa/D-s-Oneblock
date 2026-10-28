@@ -1,3 +1,25 @@
-overrides/create_radar_debug/
-overrides/downloads/
-overrides/local/
+# Ignore actual mod files
+/mods/
+/coremods/
+
+# Ignore personal player data and saves
+/saves/
+/usercache.json
+/usernamecache.json
+/command_history.txt
+/essential/
+
+# Ignore logs and crashes
+/logs/
+/crash-reports/
+
+# Ignore personal settings and temp files
+/options.txt
+/downloads/
+/local/
+create_radar_debug/
+ponders_watched.json
+
+# Optional: Ignore asset packs if you didn't make them
+# /resourcepacks/
+# /shaderpacks/
