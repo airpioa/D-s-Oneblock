@@ -1,0 +1,13 @@
+{
+  "equipped": {
+    "ICON": "BASE_ICON"
+  },
+  "settings": {
+    "BASE_ICON": [],
+    "HOPLON_AND_XIPHOS": [],
+    "LIGHTNING_SHOES": [
+      "{\"type\":\"VARIANT\",\"id\":\"PANTS\",\"enabled\":true,\"data\":{\"variant\":\"yellow\"}}"
+    ],
+    "SNEAKERS": []
+  }
+}
