@@ -14,7 +14,7 @@
 /crash-reports/
 
 # Ignore personal settings and temp files
-/options.txt
+
 /downloads/
 /local/
 create_radar_debug/
