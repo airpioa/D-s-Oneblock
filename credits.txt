@@ -1,0 +1,11 @@
+===================================================================
+MODPACK MUSIC ATTRIBUTION
+===================================================================
+Audio tracks from "Minecraft Live: 2023 (Original Soundtrack)" 
+are utilized in this modpack configuration.
+
+All music and intellectual property belong to Mojang Studios & Microsoft.
+Music courtesy of Mojang Studios.
+
+Composers: Camilo Forero, Niccolo Pacella
+===================================================================
