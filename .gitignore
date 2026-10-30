@@ -37,3 +37,4 @@ ponders_watched.json
 .cache/
 .sable/
 *.class
+*screenshot*
