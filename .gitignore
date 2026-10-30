@@ -23,3 +23,17 @@ ponders_watched.json
 # Optional: Ignore asset packs if you didn't make them
 # /resourcepacks/
 # /shaderpacks/
+# Ignore all dotfiles and dotfolders by default
+.*
+
+# Exceptions: keep essential Git files
+!.gitignore
+!.gitattributes
+!.git/
+
+# Explicitly ignore common build/cache directories & patterns
+.mixin_out/
+.mixin.out/
+.cache/
+.sable/
+*.class
