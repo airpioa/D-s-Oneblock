@@ -1,0 +1,30 @@
+==== Connector Mixin Patch Audit Summary ====
+Successful: 3
+Partial: 0
+Failed: 0
+Success rate: 100.00%        Accuracy: 100.00%
+=============================================
+
+Mixin method folk/sisby/tinkerers_smithing/mixin/client/InGameHudMixin showBrokenHeldItemTooltip(Lnet/minecraft/network/chat/MutableComponent;)Lnet/minecraft/network/chat/MutableComponent;
+  >> Using org.sinytra.adapter.patch.resolver.target.SplitTargetMethodSubResolver
+     - Adjusting split method target to renderSelectedItemName(Lnet/minecraft/client/gui/GuiGraphics;I)V
+  >> Using org.sinytra.adapter.patch.processor.PropertyProcessor
+     - Set property 'at' to: AtData{value=INVOKE, target=Lnet/minecraft/network/chat/Component;empty()Lnet/minecraft/network/chat/MutableComponent;, ordinal=0}
+     - Set property 'method' to: MethodQualifier[owner=null, name=renderSelectedItemName, desc=(Lnet/minecraft/client/gui/GuiGraphics;I)V]
+
+Mixin method folk/sisby/tinkerers_smithing/mixin/ItemStackMixin brokenNoDamage(Z)Z
+  >> Using org.sinytra.adapter.patch.resolver.target.SplitTargetMethodSubResolver
+     - Adjusting split method target to hurtAndBreak(ILnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Ljava/util/function/Consumer;)V
+  >> Using org.sinytra.adapter.patch.processor.PropertyProcessor
+     - Set property 'at' to: AtData{value=INVOKE, target=Lnet/minecraft/world/item/ItemStack;isDamageableItem()Z}
+     - Set property 'method' to: MethodQualifier[owner=null, name=hurtAndBreak, desc=(ILnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Ljava/util/function/Consumer;)V]
+
+Mixin method folk/sisby/tinkerers_smithing/mixin/ItemStackMixin dontBreakDecrementKeepers(IILnet/minecraft/server/level/ServerLevel;Lnet/minecraft/server/level/ServerPlayer;Ljava/util/function/Consumer;)I
+  >> Using org.sinytra.adapter.patch.resolver.target.SplitTargetMethodSubResolver
+     - Adjusting split method target to hurtAndBreak(ILnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Ljava/util/function/Consumer;)V
+  >> Using org.sinytra.adapter.patch.processor.PropertyProcessor
+     - Set property 'at' to: AtData{value=INVOKE, target=Lnet/minecraft/world/item/ItemStack;getMaxDamage()I}
+     - Set property 'method' to: MethodQualifier[owner=null, name=hurtAndBreak, desc=(ILnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Ljava/util/function/Consumer;)V]
+  >> Using org.sinytra.adapter.patch.processor.ParametersProcessor
+     - Change descriptor to (IILnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Ljava/util/function/Consumer;)I
+
