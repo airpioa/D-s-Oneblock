@@ -1,0 +1,25 @@
+{
+  "favorites": [],
+  "lookup_history": [
+    {
+      "type": "item",
+      "id": "kubejs:sky_token",
+      "amount": 8
+    },
+    "item:kubejs:architect_token",
+    "item:create:andesite_alloy"
+  ],
+  "craft_history": [
+    "minecraft:crafting_table",
+    "minecraft:birch_planks",
+    "minecraft:birch_slab",
+    "minecraft:oak_slab"
+  ],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}
