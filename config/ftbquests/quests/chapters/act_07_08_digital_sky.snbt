@@ -1,0 +1,676 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "act_07_08_digital_sky"
+	group: "1000000000000002"
+	icon: {
+		id: "ae2:controller"
+	}
+	id: "4100000000000004"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6A06000000000100"]
+			id: "6A07000000000100"
+			rewards: [{
+				count: 4
+				id: "6A07000000000101"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "oneblock:phase7"
+				criterion: ""
+				id: "6A07000000000151"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A07000000000100"]
+			id: "6A07000000000200"
+			rewards: [{
+				count: 3
+				id: "6A07000000000201"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A07000000000233"
+					item: { count: 1, id: "ae2:inscriber" }
+					type: "item"
+				}
+				{
+					id: "6A07000000000234"
+					item: { count: 1, id: "ae2:charger" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A07000000000100"]
+			id: "6A07000000000300"
+			rewards: [{
+				count: 3
+				id: "6A07000000000301"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "6A07000000000333"
+				item: { count: 1, id: "appmek:chemical_storage_cell_1k" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A07000000000200"]
+			id: "6A07000000000400"
+			rewards: [
+				{
+					count: 8
+					id: "6A07000000000401"
+					item: {
+						count: 1
+						id: "ae2:fluix_glass_cable"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6A07000000000402"
+					item: {
+						count: 1
+						id: "kubejs:sky_token"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A07000000000433"
+					item: { count: 1, id: "ae2:controller" }
+					type: "item"
+				}
+				{
+					id: "6A07000000000434"
+					item: { count: 1, id: "ae2:drive" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6A07000000000300"]
+			id: "6A07000000000500"
+			rewards: [{
+				count: 4
+				id: "6A07000000000501"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A07000000000533"
+					item: { count: 1, id: "appmek:chemical_storage_cell_16k" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6A07000000000534"
+					item: { count: 1, id: "ae2:fluix_crystal" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6A07000000000200"
+				"6A07000000000300"
+			]
+			id: "6A07000000000600"
+			rewards: [{
+				count: 4
+				id: "6A07000000000601"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [
+				{
+					id: "6A07000000000633"
+					item: { count: 1, id: "ae2:crafting_terminal" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6A07000000000634"
+					item: { count: 1, id: "ae2:fluix_glass_cable" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6A07000000000635"
+					item: { count: 1, id: "mekanism:basic_universal_cable" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6A07000000000400"
+				"6A07000000000600"
+			]
+			id: "6A07000000000700"
+			rewards: [{
+				count: 4
+				id: "6A07000000000701"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 2L
+					id: "6A07000000000733"
+					item: { count: 1, id: "ae2:item_storage_cell_4k" }
+					type: "item"
+				}
+				{
+					id: "6A07000000000734"
+					item: { count: 1, id: "ae2:item_storage_cell_16k" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6A07000000000500"
+				"6A07000000000600"
+			]
+			id: "6A07000000000800"
+			rewards: [{
+				count: 4
+				id: "6A07000000000801"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A07000000000833"
+					item: { count: 1, id: "mekanism:purification_chamber" }
+					type: "item"
+				}
+				{
+					id: "6A07000000000834"
+					item: { count: 1, id: "mekanism:osmium_compressor" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6A07000000000700"
+				"6A07000000000800"
+			]
+			id: "6A07000000000900"
+			rewards: [
+				{
+					id: "6A07000000000901"
+					item: {
+						count: 1
+						id: "kubejs:mystery_crate_tech"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6A07000000000902"
+					item: {
+						count: 1
+						id: "kubejs:architect_token"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.4d
+			tasks: [
+				{
+					id: "6A07000000000933"
+					item: { count: 1, id: "ae2:controller" }
+					type: "item"
+				}
+				{
+					id: "6A07000000000934"
+					item: { count: 1, id: "ae2:drive" }
+					type: "item"
+				}
+				{
+					id: "6A07000000000935"
+					item: { count: 1, id: "ae2:item_storage_cell_16k" }
+					type: "item"
+				}
+				{
+					id: "6A07000000000936"
+					item: { count: 1, id: "appmek:chemical_storage_cell_16k" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6A07000000000100"]
+			hide_dependency_lines: true
+			id: "6A07000000000A00"
+			invisible: true
+			rewards: [{
+				count: 2
+				id: "6A07000000000A01"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "star"
+			size: 1.25d
+			tasks: [
+				{
+					id: "6A07000000000A33"
+					item: { count: 1, id: "ae2:wireless_access_point" }
+					type: "item"
+				}
+				{
+					id: "6A07000000000A34"
+					item: { count: 1, id: "ae2:wireless_terminal" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6A07000000000100"]
+			id: "6A08000000000100"
+			rewards: [{
+				count: 4
+				id: "6A08000000000101"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "oneblock:phase8"
+				criterion: ""
+				id: "6A08000000000151"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A08000000000100"]
+			id: "6A08000000000200"
+			rewards: [{
+				count: 2
+				id: "6A08000000000201"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "6A08000000000233"
+				item: { count: 1, id: "waystones:waystone" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A08000000000100"]
+			id: "6A08000000000300"
+			rewards: [{
+				count: 3
+				id: "6A08000000000301"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A08000000000333"
+					item: { count: 1, id: "immersive_aircraft:engine" }
+					type: "item"
+				}
+				{
+					id: "6A08000000000334"
+					item: { count: 1, id: "immersive_aircraft:boiler" }
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A08000000000200"]
+			id: "6A08000000000400"
+			rewards: [{
+				count: 4
+				id: "6A08000000000401"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A08000000000433"
+					item: { count: 1, id: "waystones:warp_stone" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6A08000000000434"
+					item: { count: 1, id: "waystones:warp_plate" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6A08000000000300"]
+			id: "6A08000000000500"
+			rewards: [{
+				count: 4
+				id: "6A08000000000501"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A08000000000533"
+					item: { count: 1, id: "immersive_aircraft:airship" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6A08000000000534"
+					item: { count: 1, id: "immersive_aircraft:sail" }
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6A08000000000200"
+				"6A08000000000300"
+			]
+			id: "6A08000000000600"
+			rewards: [{
+				count: 4
+				id: "6A08000000000601"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [
+				{
+					count: 2L
+					id: "6A08000000000633"
+					item: { count: 1, id: "minecraft:compass" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6A08000000000634"
+					item: { count: 1, id: "minecraft:ender_pearl" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6A08000000000635"
+					item: { count: 1, id: "create:brass_casing" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6A08000000000400"
+				"6A08000000000600"
+			]
+			id: "6A08000000000700"
+			rewards: [{
+				count: 4
+				id: "6A08000000000701"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A08000000000733"
+					item: { count: 1, id: "minecraft:lodestone" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6A08000000000734"
+					item: { count: 1, id: "waystones:waystone" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6A08000000000500"
+				"6A08000000000600"
+			]
+			id: "6A08000000000800"
+			rewards: [{
+				count: 4
+				id: "6A08000000000801"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A08000000000833"
+					item: { count: 1, id: "immersive_aircraft:biplane" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6A08000000000834"
+					item: { count: 1, id: "immersive_aircraft:hull" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6A08000000000700"
+				"6A08000000000800"
+			]
+			id: "6A08000000000900"
+			rewards: [
+				{
+					count: 2
+					id: "6A08000000000901"
+					item: {
+						count: 1
+						id: "kubejs:mystery_crate_tech"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6A08000000000902"
+					item: {
+						count: 1
+						id: "kubejs:architect_token"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.4d
+			tasks: [
+				{
+					count: 2L
+					id: "6A08000000000933"
+					item: { count: 1, id: "waystones:waystone" }
+					type: "item"
+				}
+				{
+					id: "6A08000000000934"
+					item: { count: 1, id: "waystones:warp_stone" }
+					type: "item"
+				}
+				{
+					id: "6A08000000000935"
+					item: { count: 1, id: "immersive_aircraft:airship" }
+					type: "item"
+				}
+				{
+					id: "6A08000000000936"
+					item: { count: 1, id: "immersive_aircraft:biplane" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6A08000000000100"]
+			hide_dependency_lines: true
+			id: "6A08000000000A00"
+			invisible: true
+			rewards: [{
+				count: 5
+				id: "6A08000000000A01"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "star"
+			size: 1.25d
+			tasks: [
+				{
+					id: "6A08000000000A33"
+					item: { count: 1, id: "minecraft:spyglass" }
+					type: "item"
+				}
+				{
+					id: "6A08000000000A34"
+					item: { count: 1, id: "minecraft:clock" }
+					type: "item"
+				}
+				{
+					id: "6A08000000000A35"
+					item: { count: 1, id: "minecraft:compass" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 2.5d
+		}
+	]
+}

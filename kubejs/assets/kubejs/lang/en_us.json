@@ -1,0 +1,15 @@
+{
+  "block.kubejs.anomaly_pedestal": "Dimensional Anomaly Pedestal",
+  "item.kubejs.sky_token": "Sky Token",
+  "item.kubejs.architect_token": "Master Architect Token",
+  "item.kubejs.mystery_crate_basic": "Sky-Engineer Supply Crate",
+  "item.kubejs.mystery_crate_tech": "Quantum Tech Relic Crate",
+  "item.kubejs.biome_prism": "Atmospheric Biome Prism",
+  "item.kubejs.biome_surveyor": "\u00a7a\u2726 Biome Border Surveyor \u2726",
+  "item.kubejs.act_manual": "\u00a7b\u2726 Act Field Manual \u2726",
+  "item.kubejs.sky_alloy_blend": "Molten Sky-Alloy Blend",
+  "item.kubejs.pressed_sky_plate": "Pressed Sky-Plate",
+  "item.kubejs.singularity_core": "Compressed Singularity Core",
+  "item.kubejs.architect_alloy": "Molten Architect Alloy",
+  "item.kubejs.pressed_architect_plate": "Pressed Architect Plate"
+}

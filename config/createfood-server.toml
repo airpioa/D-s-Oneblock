@@ -7,6 +7,7 @@
 		large_bowl_capacity_mb = 4000
 		display_interactions_exclude = []
 		generic_display_exclude = ["tag:c:tools"]
+		enable_rolling_pin = true
 
 		[blocks.storage.cloth_sack]
 			cloth_sack_allow_food = false

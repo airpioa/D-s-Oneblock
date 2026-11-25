@@ -1,0 +1,689 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "act_17_18_crust_deepdark"
+	group: "1000000000000003"
+	icon: {
+		id: "mekanism:atomic_disassembler"
+	}
+	id: "4100000000000009"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6A10000000000100"]
+			id: "6A11000000000100"
+			rewards: [{
+				count: 3
+				id: "6A11000000000101"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "oneblock:phase17"
+				criterion: ""
+				id: "6A11000000000151"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A11000000000100"]
+			id: "6A11000000000200"
+			rewards: [{
+				count: 2
+				id: "6A11000000000201"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "6A11000000000233"
+				item: { count: 1, id: "mekanism:atomic_disassembler" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A11000000000100"]
+			id: "6A11000000000300"
+			rewards: [
+				{
+					count: 2
+					id: "6A11000000000301"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6A11000000000302"
+					item: {
+						count: 1
+						id: "kubejs:architect_token"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				count: 8L
+				id: "6A11000000000333"
+				item: { count: 1, id: "minecraft:ancient_debris" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A11000000000200"]
+			id: "6A11000000000400"
+			rewards: [{
+				count: 3
+				id: "6A11000000000401"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A11000000000433"
+					item: { count: 1, id: "mekanism:digital_miner" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6A11000000000434"
+					item: { count: 1, id: "mekanism:upgrade_speed" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6A11000000000300"]
+			id: "6A11000000000500"
+			rewards: [{
+				count: 3
+				id: "6A11000000000501"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 4L
+					id: "6A11000000000533"
+					item: { count: 1, id: "minecraft:netherite_ingot" }
+					type: "item"
+				}
+				{
+					id: "6A11000000000534"
+					item: { count: 1, id: "minecraft:netherite_upgrade_smithing_template" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6A11000000000200"
+				"6A11000000000300"
+			]
+			id: "6A11000000000600"
+			rewards: [{
+				count: 3
+				id: "6A11000000000601"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [
+				{
+					count: 4L
+					id: "6A11000000000633"
+					item: { count: 1, id: "minecraft:reinforced_deepslate" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6A11000000000634"
+					item: { count: 1, id: "minecraft:netherite_ingot" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6A11000000000635"
+					item: { count: 1, id: "mekanism:ingot_refined_obsidian" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6A11000000000400"
+				"6A11000000000600"
+			]
+			id: "6A11000000000700"
+			rewards: [{
+				count: 4
+				id: "6A11000000000701"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A11000000000733"
+					item: { count: 1, id: "mekanism:digital_miner" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6A11000000000734"
+					item: { count: 1, id: "mekanism:quantum_entangloporter" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6A11000000000500"
+				"6A11000000000600"
+			]
+			id: "6A11000000000800"
+			rewards: [{
+				count: 4
+				id: "6A11000000000801"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 2L
+					id: "6A11000000000833"
+					item: { count: 1, id: "minecraft:netherite_block" }
+					type: "item"
+				}
+				{
+					id: "6A11000000000834"
+					item: { count: 1, id: "sophisticatedbackpacks:netherite_backpack" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6A11000000000700"
+				"6A11000000000800"
+			]
+			id: "6A11000000000900"
+			rewards: [
+				{
+					count: 3
+					id: "6A11000000000901"
+					item: {
+						count: 1
+						id: "kubejs:mystery_crate_tech"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "6A11000000000902"
+					item: {
+						count: 1
+						id: "kubejs:architect_token"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.4d
+			tasks: [
+				{
+					id: "6A11000000000933"
+					item: { count: 1, id: "mekanism:atomic_disassembler" }
+					type: "item"
+				}
+				{
+					id: "6A11000000000934"
+					item: { count: 1, id: "mekanism:digital_miner" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6A11000000000935"
+					item: { count: 1, id: "minecraft:netherite_block" }
+					type: "item"
+				}
+				{
+					id: "6A11000000000936"
+					item: { count: 1, id: "sophisticatedbackpacks:netherite_backpack" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6A11000000000100"]
+			hide_dependency_lines: true
+			id: "6A11000000000A00"
+			invisible: true
+			rewards: [{
+				count: 4
+				id: "6A11000000000A01"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "star"
+			size: 1.25d
+			tasks: [
+				{
+					count: 8L
+					id: "6A11000000000A33"
+					item: { count: 1, id: "minecraft:gilded_blackstone" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6A11000000000A34"
+					item: { count: 1, id: "minecraft:netherite_ingot" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6A11000000000100"]
+			id: "6A12000000000100"
+			rewards: [{
+				count: 4
+				id: "6A12000000000101"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "oneblock:phase18"
+				criterion: ""
+				id: "6A12000000000151"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A12000000000100"]
+			id: "6A12000000000200"
+			rewards: [{
+				count: 2
+				id: "6A12000000000201"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 4L
+					id: "6A12000000000233"
+					item: { count: 1, id: "minecraft:sculk_sensor" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6A12000000000234"
+					item: { count: 1, id: "minecraft:echo_shard" }
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A12000000000100"]
+			id: "6A12000000000300"
+			rewards: [
+				{
+					id: "6A12000000000301"
+					item: {
+						count: 1
+						id: "minecraft:totem_of_undying"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6A12000000000302"
+					item: {
+						count: 1
+						id: "kubejs:architect_token"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "6A12000000000333"
+				item: { count: 1, id: "minecraft:recovery_compass" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A12000000000200"]
+			id: "6A12000000000400"
+			rewards: [{
+				count: 3
+				id: "6A12000000000401"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 2L
+					id: "6A12000000000433"
+					item: { count: 1, id: "minecraft:calibrated_sculk_sensor" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6A12000000000434"
+					item: { count: 1, id: "minecraft:sculk_catalyst" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6A12000000000300"]
+			id: "6A12000000000500"
+			rewards: [{
+				count: 3
+				id: "6A12000000000501"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 16L
+					id: "6A12000000000533"
+					item: { count: 1, id: "minecraft:crying_obsidian" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6A12000000000534"
+					item: { count: 1, id: "minecraft:totem_of_undying" }
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6A12000000000200"
+				"6A12000000000300"
+			]
+			id: "6A12000000000600"
+			rewards: [{
+				count: 4
+				id: "6A12000000000601"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [
+				{
+					count: 8L
+					id: "6A12000000000633"
+					item: { count: 1, id: "minecraft:echo_shard" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6A12000000000634"
+					item: { count: 1, id: "minecraft:amethyst_shard" }
+					type: "item"
+				}
+				{
+					id: "6A12000000000635"
+					item: { count: 1, id: "minecraft:totem_of_undying" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6A12000000000400"
+				"6A12000000000600"
+			]
+			id: "6A12000000000700"
+			rewards: [{
+				count: 4
+				id: "6A12000000000701"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 2L
+					id: "6A12000000000733"
+					item: { count: 1, id: "minecraft:sculk_shrieker" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6A12000000000734"
+					item: { count: 1, id: "minecraft:calibrated_sculk_sensor" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6A12000000000500"
+				"6A12000000000600"
+			]
+			id: "6A12000000000800"
+			rewards: [{
+				count: 4
+				id: "6A12000000000801"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A12000000000833"
+					item: { count: 1, id: "minecraft:respawn_anchor" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "6A12000000000834"
+					item: { count: 1, id: "minecraft:totem_of_undying" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6A12000000000700"
+				"6A12000000000800"
+			]
+			id: "6A12000000000900"
+			rewards: [
+				{
+					count: 3
+					id: "6A12000000000901"
+					item: {
+						count: 1
+						id: "kubejs:mystery_crate_tech"
+					}
+					type: "item"
+				}
+				{
+					count: 7
+					id: "6A12000000000902"
+					item: {
+						count: 1
+						id: "kubejs:architect_token"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.4d
+			tasks: [
+				{
+					count: 4L
+					id: "6A12000000000933"
+					item: { count: 1, id: "minecraft:calibrated_sculk_sensor" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6A12000000000934"
+					item: { count: 1, id: "minecraft:echo_shard" }
+					type: "item"
+				}
+				{
+					id: "6A12000000000935"
+					item: { count: 1, id: "minecraft:recovery_compass" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6A12000000000936"
+					item: { count: 1, id: "minecraft:totem_of_undying" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6A12000000000100"]
+			hide_dependency_lines: true
+			id: "6A12000000000A00"
+			invisible: true
+			rewards: [{
+				count: 5
+				id: "6A12000000000A01"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "star"
+			size: 1.25d
+			tasks: [
+				{
+					count: 4L
+					id: "6A12000000000A33"
+					item: { count: 1, id: "minecraft:sculk_shrieker" }
+					type: "item"
+				}
+				{
+					id: "6A12000000000A34"
+					item: { count: 1, id: "minecraft:music_disc_5" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 2.5d
+		}
+	]
+}

@@ -1,0 +1,67 @@
+{
+	id: "2000000000000001"
+	loot_crate: {
+		color: 16755200
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "void_mystery_crate"
+	}
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 8
+			id: "5FAF43CE6F28FBEC"
+			item: {
+				count: 1
+				id: "create:andesite_alloy"
+			}
+			weight: 20.0f
+		}
+		{
+			count: 4
+			id: "0B987E634E4957A5"
+			item: {
+				count: 1
+				id: "minecraft:iron_ingot"
+			}
+			weight: 15.0f
+		}
+		{
+			id: "18CD08ED53DC0EDA"
+			item: {
+				count: 1
+				id: "sophisticatedbackpacks:upgrade_base"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 2
+			id: "0D92A1A970FEF898"
+			item: {
+				count: 1
+				id: "mekanism:ingot_osmium"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "7B313FDDAC09710F"
+			item: {
+				count: 1
+				id: "waystones:waystone"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "50101437CA719CA7"
+			item: {
+				count: 1
+				id: "artifacts:running_shoes"
+			}
+			weight: 3.0f
+		}
+	]
+}

@@ -1,0 +1,578 @@
+{
+	chapter.4100000000000001.title: "Acts I-II: Void Dawn and Kinetics"
+	chapter.4100000000000002.title: "Acts III-IV: Harvest and Companions"
+	chapter.4100000000000003.title: "Acts V-VI: Metallurgy, Steam and Diesel"
+	chapter.4100000000000004.title: "Acts VII-VIII: Digital AE2 and Sky-Ships"
+	chapter.4100000000000005.title: "Acts IX-X: Relics, Sky-Rails and Trade"
+	chapter.4100000000000006.title: "Acts XI-XII: Fission, Lua and Lasers"
+	chapter.4100000000000007.title: "Acts XIII-XIV: Quantum and Biomes"
+	chapter.4100000000000008.title: "Acts XV-XVI: Megabuilds and Fusion"
+	chapter.4100000000000009.title: "Acts XVII-XVIII: Abyssal Crust and Deep Dark"
+	chapter.410000000000000A.title: "Acts XIX-XX: Crucible and Starforge"
+	chapter.410000000000000B.title: "Acts XXI-XXII: Trial Vaults and Mythics"
+	chapter.410000000000000C.title: "Acts XXIII-XXIV: Eclipse and Omega"
+	chapter.410000000000000D.title: "Storage, Hidden Lore and Achievements"
+	chapter.5A9B2D0000000001.title: "Sky-Vault Expanding Bazaar"
+	chapter_group.1000000000000001.title: "Part I: Dawn of the Sky-Void (Acts I-VI)"
+	chapter_group.1000000000000002.title: "Part II: Digital Void and Sky-Rails (Acts VII-XII)"
+	chapter_group.1000000000000003.title: "Part III: Quantum and Abyssal Realms (Acts XIII-XVIII)"
+	chapter_group.1000000000000004.title: "Part IV: Omega Endgame (Acts XIX-XXIV)"
+	chapter_group.1000000000000005.title: "Expanding Bazaar, Storage and Secrets"
+	quest.5A9B2D0000000010.quest_desc: ["Welcome to the Expanding Sky-Vault Bazaar! New market wings unlock as you conquer Acts. Prices scale steeply."]
+	quest.5A9B2D0000000010.title: "Tier I Bazaar: Starter Exchange (Act I)"
+	quest.5A9B2D0000000014.quest_desc: ["Trade 12 Sky Tokens for a Sky-Engineer Supply Crate."]
+	quest.5A9B2D0000000014.title: "Buy: Supply Crate (12 Sky Tokens)"
+	quest.5A9B2D0000000020.quest_desc: ["Unlocked at Act III! Agriculture, Biome, and Doggy Talents kits open."]
+	quest.5A9B2D0000000020.title: "Tier II Bazaar: Harvest and Pets (Act III)"
+	quest.5A9B2D0000000022.quest_desc: ["Trade 16 Sky Tokens for 2x Hopper Botany Pots and 1x Fermentation Barrel."]
+	quest.5A9B2D0000000022.title: "Buy: Sky-Orchard Kit (16 Sky Tokens)"
+	quest.5A9B2D0000000024.quest_desc: ["Trade 20 Sky Tokens for an Atmospheric Biome Prism and Biome Border Surveyor."]
+	quest.5A9B2D0000000024.title: "Buy: Biome Prism + Surveyor (20 Sky Tokens)"
+	quest.5A9B2D0000000026.quest_desc: ["Trade 16 Sky Tokens for 4x Training Treats, 1x Wolf Armor, and 2x Name Tags."]
+	quest.5A9B2D0000000026.title: "Buy: Doggy Talents Trainer Kit (16 Sky Tokens)"
+	quest.5A9B2D0000000030.quest_desc: ["Unlocked at Act VI! Precision brass, trains, and waystones enter the market."]
+	quest.5A9B2D0000000030.title: "Tier III Bazaar: Brass and Railways (Act VI)"
+	quest.5A9B2D0000000032.quest_desc: ["Trade 24 Sky Tokens for 4x Precision Mechanisms and 16x Brass Ingots."]
+	quest.5A9B2D0000000032.title: "Buy: Brass and Mechanisms (24 Sky Tokens)"
+	quest.5A9B2D0000000034.quest_desc: ["Trade 32 Sky Tokens for 128x Train Tracks, 4x Railway Casings, and 1x Train Controls."]
+	quest.5A9B2D0000000034.title: "Buy: Long-Haul Train Kit (32 Sky Tokens)"
+	quest.5A9B2D0000000036.quest_desc: ["Trade 28 Sky Tokens for 2x Waystones and 1x Warp Stone."]
+	quest.5A9B2D0000000036.title: "Buy: Waystone Network Kit (28 Sky Tokens)"
+	quest.5A9B2D0000000040.quest_desc: ["Unlocked at Act X! Mekanism upgrades, AE2 cells, and Quantum crates open."]
+	quest.5A9B2D0000000040.title: "Tier IV Bazaar: Tech and Emeralds (Act X)"
+	quest.5A9B2D0000000042.quest_desc: ["Trade 36 Sky Tokens for 8x Speed Upgrades and 8x Energy Upgrades."]
+	quest.5A9B2D0000000042.title: "Buy: Mekanism Upgrade Pack (36 Sky Tokens)"
+	quest.5A9B2D0000000044.quest_desc: ["Trade 40 Sky Tokens for 2x 16k ME Storage Cells and 32x Fluix Crystals."]
+	quest.5A9B2D0000000044.title: "Buy: 16k AE2 Storage Pack (40 Sky Tokens)"
+	quest.5A9B2D0000000046.quest_desc: ["Trade 4 Master Architect Tokens for a Quantum Tech Relic Crate."]
+	quest.5A9B2D0000000046.title: "Buy: Quantum Relic Crate (4 Architect Tokens)"
+	quest.5A9B2D0000000048.quest_desc: ["Exchange 64x Emeralds for a Void Mystery Crate."]
+	quest.5A9B2D0000000048.title: "Buy: Void Mystery Crate (64 Emeralds)"
+	quest.5A9B2D0000000050.quest_desc: ["Unlocked at Act XIV! Netherite, 64k storage, and Diamond exchanges unlock."]
+	quest.5A9B2D0000000050.title: "Tier V Bazaar: Netherite and Digital Vaults (Act XIV)"
+	quest.5A9B2D0000000052.quest_desc: ["Convert 32 Diamonds into 1 Master Architect Token."]
+	quest.5A9B2D0000000052.title: "Sell: 32 Diamonds for 1 Architect Token"
+	quest.5A9B2D0000000054.quest_desc: ["Trade 8 Master Architect Tokens for 2x Netherite Ingots, a Smithing Template, and a Totem."]
+	quest.5A9B2D0000000054.title: "Buy: Netherite and Relic Bundle (8 Architect Tokens)"
+	quest.5A9B2D0000000056.quest_desc: ["Trade 64 Sky Tokens for 2x 64k ME Storage Cells."]
+	quest.5A9B2D0000000056.title: "Buy: 64k AE2 Mega-Pack (64 Sky Tokens)"
+	quest.5A9B2D0000000060.quest_desc: ["Unlocked at Act XVIII! Polonium, Echo Shards, and Quantum Entangloporters arrive."]
+	quest.5A9B2D0000000060.title: "Tier VI Bazaar: Abyssal and Nuclear Armory (Act XVIII)"
+	quest.5A9B2D0000000062.quest_desc: ["Trade 12 Master Architect Tokens for 4x Polonium Pellets."]
+	quest.5A9B2D0000000062.title: "Buy: Polonium Supply Pack (12 Architect Tokens)"
+	quest.5A9B2D0000000064.quest_desc: ["Trade 16 Master Architect Tokens for 2x Quantum Entangloporters."]
+	quest.5A9B2D0000000064.title: "Buy: Quantum Teleport Pack (16 Architect Tokens)"
+	quest.5A9B2D0000000066.quest_desc: ["Trade 20 Master Architect Tokens for 8x Echo Shards and 2x Totems of Undying."]
+	quest.5A9B2D0000000066.title: "Buy: Rift Survival Kit (20 Architect Tokens)"
+	quest.5A9B2D0000000070.quest_desc: ["Unlocked at Act XXII! Heavy Cores, Antimatter, and Nether Stars."]
+	quest.5A9B2D0000000070.title: "Tier VII Bazaar: Omega Endgame Vault (Act XXII)"
+	quest.5A9B2D0000000072.quest_desc: ["Trade 24 Master Architect Tokens for 1x Heavy Core and 4x Breeze Rods."]
+	quest.5A9B2D0000000072.title: "Buy: Trial Heavy Core Kit (24 Architect Tokens)"
+	quest.5A9B2D0000000074.quest_desc: ["Trade 32 Master Architect Tokens for 2x Antimatter Pellets and 2x Nether Stars."]
+	quest.5A9B2D0000000074.title: "Buy: Antimatter and Star Vault (32 Architect Tokens)"
+	quest.5A9B2D0000000076.quest_desc: ["Trade 48 Master Architect Tokens for 4x Quantum Tech Crates and 2x Netherite Blocks."]
+	quest.5A9B2D0000000076.title: "Buy: Omega Sovereign Cache (48 Architect Tokens)"
+	quest.6A01000000000100.quest_desc: ["Begin atop your Dimensional Anomaly Pedestal. Right-click your Act Field Manual anytime for live Act intel."]
+	quest.6A01000000000100.title: "Act I: A Speck of Life"
+	quest.6A01000000000200.quest_desc: ["Build a safe wooden platform around the pedestal so nothing falls into the void."]
+	quest.6A01000000000200.title: "Path A1: Void Platform"
+	quest.6A01000000000300.quest_desc: ["Craft Andesite Alloy from Dried Kelp, Andesite, and Iron Nuggets. Hold [W] to Ponder!"]
+	quest.6A01000000000300.title: "Path B1: Engineer's Alloy"
+	quest.6A01000000000400.quest_desc: ["Secure Oak Saplings and Cobblestone to expand your sky-island."]
+	quest.6A01000000000400.title: "Path A2: Tree Nursery"
+	quest.6A01000000000500.quest_desc: ["Craft a Water Wheel and Hand Crank to generate Stress Units (SU)."]
+	quest.6A01000000000500.title: "Path B2: Spinning Up the Void"
+	quest.6A01000000000600.quest_desc: ["Combine your wood platform and Andesite Alloy into Andesite Casings!"]
+	quest.6A01000000000600.title: "Twist I: Casing Assembly"
+	quest.6A01000000000700.quest_desc: ["Connect Casings and Wood into Cogwheels and Large Cogwheels for torque."]
+	quest.6A01000000000700.title: "Braided Left I: Gearworks"
+	quest.6A01000000000800.quest_desc: ["Place a Mechanical Press over a Depot to stamp metal plates."]
+	quest.6A01000000000800.title: "Braided Right I: Sheet Forging"
+	quest.6A01000000000900.quest_desc: ["Unite alloy, casings, cogwheels, and fuel into a true early workshop!"]
+	quest.6A01000000000900.title: "Convergence I: Kinetic Dawn"
+	quest.6A01000000000A00.quest_desc: ["HIDDEN: Light up the lonely void with a Campfire and Lanterns."]
+	quest.6A01000000000A00.title: "Secret I: Cozy Void Beacon"
+	quest.6A02000000000100.quest_desc: ["&650 Blocks Mined!&r Sheep, Chickens, Zombies, and Skeletons emerge alongside early ores."]
+	quest.6A02000000000100.title: "Act II: The Kinetic Era"
+	quest.6A02000000000200.quest_desc: ["Aim a Mechanical Drill at your Core Block and power it continuously."]
+	quest.6A02000000000200.title: "Path A1: Hands-Free Drill Rig"
+	quest.6A02000000000300.quest_desc: ["Craft a Sophisticated Backpack and Iron Sword to fight Core mobs."]
+	quest.6A02000000000300.title: "Path B1: Sky-Defender Kit"
+	quest.6A02000000000400.quest_desc: ["Catch every mined block with Chutes and Mechanical Belts."]
+	quest.6A02000000000400.title: "Path A2: Zero-Loss Loot Catcher"
+	quest.6A02000000000500.quest_desc: ["Upgrade to an Iron Backpack and forge a Shield for void defense."]
+	quest.6A02000000000500.title: "Path B2: Iron Pack and Shield"
+	quest.6A02000000000600.quest_desc: ["Bridge belt automation and pack storage with Funnels and Pickup Upgrades."]
+	quest.6A02000000000600.title: "Twist II: Smart Pickup"
+	quest.6A02000000000700.quest_desc: ["Automate tree harvesting with a Mechanical Saw and Item Vault."]
+	quest.6A02000000000700.title: "Braided Left II: Saw and Vault"
+	quest.6A02000000000800.quest_desc: ["Install a Compacting Upgrade and wear Iron Armor while mining."]
+	quest.6A02000000000800.title: "Braided Right II: Compacting Gear"
+	quest.6A02000000000900.quest_desc: ["Combine drills, belts, upgraded packs, and iron ingots for complete early automation."]
+	quest.6A02000000000900.title: "Convergence II: Automated Nomad"
+	quest.6A02000000000A00.quest_desc: ["HIDDEN: Combine a Magnet Upgrade and Smart Chute so nothing ever escapes."]
+	quest.6A02000000000A00.title: "Secret II: Vacuum Singularity"
+	quest.6A03000000000100.quest_desc: ["&6125 Blocks Mined!&r Cows, Pigs, Bees, Farmer's Delight, Vinery, and Serene Seasons crops emerge."]
+	quest.6A03000000000100.title: "Act III: Harvest, Vinery and Pastures"
+	quest.6A03000000000200.quest_desc: ["Grow crops and saplings year-round inside Hopper Botany Pots."]
+	quest.6A03000000000200.title: "Path A1: Year-Round Sky-Orchard"
+	quest.6A03000000000300.quest_desc: ["Build a Farmer's Delight Cooking Pot and Stove for buff meals."]
+	quest.6A03000000000300.title: "Path B1: Chef of the Clouds"
+	quest.6A03000000000400.quest_desc: ["Filter ores, logs, and crops using Brass Funnels and Item Vaults."]
+	quest.6A03000000000400.title: "Path A2: Smart Factory Sorting"
+	quest.6A03000000000500.quest_desc: ["Stomp grapes in a Grapevine Pot and age vintages in a Fermentation Barrel."]
+	quest.6A03000000000500.title: "Path B2: Vinery Cellar"
+	quest.6A03000000000600.quest_desc: ["Twist kitchen prep and Create kinetics together with a Cutting Board, Knife, and Mixer!"]
+	quest.6A03000000000600.title: "Twist III: Culinary Automation"
+	quest.6A03000000000700.quest_desc: ["Pair Crushing Wheels and Depots to process harvests and ores."]
+	quest.6A03000000000700.title: "Braided Left III: Crushing Mill"
+	quest.6A03000000000800.quest_desc: ["Bake Cakes and Pumpkin Pies from your automated sky-farm."]
+	quest.6A03000000000800.title: "Braided Right III: Grand Banquet"
+	quest.6A03000000000900.quest_desc: ["Unite Botany Pots, Cooking Pots, Vinery Barrels, and Crushing Wheels!"]
+	quest.6A03000000000900.title: "Convergence III: Farm-to-Table Engine"
+	quest.6A03000000000A00.quest_desc: ["HIDDEN: Stockpile Honey Bottles and Golden Carrots."]
+	quest.6A03000000000A00.title: "Secret III: Royal Sky-Sommelier"
+	quest.6A04000000000100.quest_desc: ["&6225 Blocks Mined!&r Wolves, Cats, Foxes, Parrots, and Axolotls emerge from the Core."]
+	quest.6A04000000000100.title: "Act IV: Loyal Companions and Doggy Talents"
+	quest.6A04000000000200.quest_desc: ["Tame a Wolf and feed it Training Treats to unlock Doggy Talents."]
+	quest.6A04000000000200.title: "Path A1: First Training Treat"
+	quest.6A04000000000300.quest_desc: ["Craft a revive-safe Dog Bed and Food Bowl."]
+	quest.6A04000000000300.title: "Path B1: Cozy Canine Sanctuary"
+	quest.6A04000000000400.quest_desc: ["Craft Super Treats and a Whistle to command your companion."]
+	quest.6A04000000000400.title: "Path A2: Super Canine Training"
+	quest.6A04000000000500.quest_desc: ["Protect your wolf with Wolf Armor and extra Bones."]
+	quest.6A04000000000500.title: "Path B2: Armored Guardian"
+	quest.6A04000000000600.quest_desc: ["Combine backpack Feeding Upgrades and Leads for long expeditions."]
+	quest.6A04000000000600.title: "Twist IV: Auto-Feeder Logistics"
+	quest.6A04000000000700.quest_desc: ["Push training further with Master Treats and Name Tags."]
+	quest.6A04000000000700.title: "Braided Left IV: Master Rank"
+	quest.6A04000000000800.quest_desc: ["Build a warm kennel using Hay Blocks and Wool."]
+	quest.6A04000000000800.title: "Braided Right IV: Kennel Courtyard"
+	quest.6A04000000000900.quest_desc: ["Unite Super Treats, Dog Beds, Wolf Armor, and Bone Reserves!"]
+	quest.6A04000000000900.title: "Convergence IV: Pack Alpha Sovereign"
+	quest.6A04000000000A00.quest_desc: ["HIDDEN: Craft a Dire Treat alongside Golden Apples."]
+	quest.6A04000000000A00.title: "Secret IV: Pack Alpha Legend"
+	quest.6A05000000000100.quest_desc: ["&6350 Blocks Mined!&r Core Hardness Tier II! Osmium, Tin, Lead, Fluorite, and Uranium emerge."]
+	quest.6A05000000000100.title: "Act V: Mekanism and Metallurgy"
+	quest.6A05000000000200.quest_desc: ["Craft a Metallurgic Infuser and Heat Generator."]
+	quest.6A05000000000200.title: "Path A1: Metallurgic Dawn"
+	quest.6A05000000000300.quest_desc: ["Build a Create Millstone and Encased Fan (Hold [W] to Ponder)."]
+	quest.6A05000000000300.title: "Path B1: Kinetic Milling"
+	quest.6A05000000000400.quest_desc: ["Pair an Enrichment Chamber and Crusher for clean ore doubling."]
+	quest.6A05000000000400.title: "Path A2: Mekanism Ore Doubling"
+	quest.6A05000000000500.quest_desc: ["Combine a Mechanical Mixer and Basin for alloys."]
+	quest.6A05000000000500.title: "Path B2: Heated Mixing Foundry"
+	quest.6A05000000000600.quest_desc: ["Weave Mekanism Cables, Osmium, and Create Casings into one line!"]
+	quest.6A05000000000600.title: "Twist V: Electro-Kinetic Bus"
+	quest.6A05000000000700.quest_desc: ["Add an Energized Smelter and Energy Cube to your Mekanism grid."]
+	quest.6A05000000000700.title: "Braided Left V: Powered Smelting"
+	quest.6A05000000000800.quest_desc: ["Upgrade kinetics with Large Water Wheels and a Speed Controller."]
+	quest.6A05000000000800.title: "Braided Right V: High-Torque Drive"
+	quest.6A05000000000900.quest_desc: ["Fuse Mekanism Infusion, Enrichment, Create Fans, and Osmium!"]
+	quest.6A05000000000900.title: "Convergence V: Hybrid Refinery"
+	quest.6A05000000000A00.quest_desc: ["HIDDEN: Place Wind Generators high in the sky with Lightning Rods."]
+	quest.6A05000000000A00.title: "Secret V: Sky-Storm Harvester"
+	quest.6A06000000000100.quest_desc: ["&6500 Blocks Mined!&r Deepslate, Obsidian, Blazes, and Zombified Piglins emerge."]
+	quest.6A06000000000100.title: "Act VI: Brass, Steam and Diesel Power"
+	quest.6A06000000000200.quest_desc: ["Capture a Blaze in a Blaze Burner and build Fluid Tanks."]
+	quest.6A06000000000200.title: "Path A1: Blaze Boiler Core"
+	quest.6A06000000000300.quest_desc: ["Craft a Basin Lid and refine your first Brass Ingots."]
+	quest.6A06000000000300.title: "Path B1: Bio-Ethanol Prep"
+	quest.6A06000000000400.quest_desc: ["Attach a Steam Engine and Mechanical Pumps for huge Create SU."]
+	quest.6A06000000000400.title: "Path A2: High-Pressure Steam"
+	quest.6A06000000000500.quest_desc: ["Build a Diesel Engine and pipe fuel cleanly."]
+	quest.6A06000000000500.title: "Path B2: Diesel Powerplant"
+	quest.6A06000000000600.quest_desc: ["Twist Steam and Brass engineering into Precision Mechanisms and Electron Tubes!"]
+	quest.6A06000000000600.title: "Twist VI: Precision Electronics"
+	quest.6A06000000000700.quest_desc: ["Build Deployers and Mechanical Crafters for multi-step assembly."]
+	quest.6A06000000000700.title: "Braided Left VI: Sequenced Assembly"
+	quest.6A06000000000800.quest_desc: ["Combine Sequenced Gearshifts and Speed Controllers."]
+	quest.6A06000000000800.title: "Braided Right VI: Controlled Kinetics"
+	quest.6A06000000000900.quest_desc: ["Unite Steam Engines, Diesel Engines, Precision Mechanisms, and Brass Casings!"]
+	quest.6A06000000000900.title: "Convergence VI: Industrial Titan"
+	quest.6A06000000000A00.quest_desc: ["HIDDEN: Command multiple Mechanical Arms fed by Electron Tubes."]
+	quest.6A06000000000A00.title: "Secret VI: Clockwork Choreographer"
+	quest.6A07000000000100.quest_desc: ["&6675 Blocks Mined!&r Endermen, Sky Stone, and Certus Quartz emerge from the Core."]
+	quest.6A07000000000100.title: "Act VII: Digital AE2 and Applied Mekanistics"
+	quest.6A07000000000200.quest_desc: ["Build an AE2 Inscriber and Charger to print logic silicon."]
+	quest.6A07000000000200.title: "Path A1: Processor Press"
+	quest.6A07000000000300.quest_desc: ["Craft a 1k ME Chemical Storage Cell (Applied Mekanistics)."]
+	quest.6A07000000000300.title: "Path B1: Chemical Digitization"
+	quest.6A07000000000400.quest_desc: ["Assemble an ME Controller and ME Drive."]
+	quest.6A07000000000400.title: "Path A2: Digital ME Core"
+	quest.6A07000000000500.quest_desc: ["Upgrade to a 16k ME Chemical Storage Cell with Fluix Crystals."]
+	quest.6A07000000000500.title: "Path B2: Expanded Gas Vaults"
+	quest.6A07000000000600.quest_desc: ["Link your Crafting Terminal, Fluix Cables, and Mekanism Cables."]
+	quest.6A07000000000600.title: "Twist VII: Unified Power and Data"
+	quest.6A07000000000700.quest_desc: ["Populate your Drive with 4k and 16k ME Item Storage Cells."]
+	quest.6A07000000000700.title: "Braided Left VII: Mass Storage"
+	quest.6A07000000000800.quest_desc: ["Build a Purification Chamber and Osmium Compressor to feed your ME cells."]
+	quest.6A07000000000800.title: "Braided Right VII: Chemical Chain"
+	quest.6A07000000000900.quest_desc: ["Combine ME Controller, Drive, 16k Item Cell, and 16k Chemical Cell!"]
+	quest.6A07000000000900.title: "Convergence VII: Digital Singularity"
+	quest.6A07000000000A00.quest_desc: ["HIDDEN: Access your ME Network wirelessly across your sky-island."]
+	quest.6A07000000000A00.title: "Secret VII: Cord-Free Singularity"
+	quest.6A08000000000100.quest_desc: ["&6850 Blocks Mined!&r Neighboring player islands lie every 1,024m along Z = 0."]
+	quest.6A08000000000100.title: "Act VIII: Sky-Ships and Waystone Portals"
+	quest.6A08000000000200.quest_desc: ["Craft your first Waystone for instant teleportation."]
+	quest.6A08000000000200.title: "Path A1: Waystone Anchor"
+	quest.6A08000000000300.quest_desc: ["Build an Immersive Aircraft Engine and Boiler."]
+	quest.6A08000000000300.title: "Path B1: Aircraft Propulsion"
+	quest.6A08000000000400.quest_desc: ["Craft a Warp Stone and Warp Plates for portable travel."]
+	quest.6A08000000000400.title: "Path A2: Warp Logistics"
+	quest.6A08000000000500.quest_desc: ["Assemble an Airship with Sails to cross the 1,024m void gap!"]
+	quest.6A08000000000500.title: "Path B2: Aviator of the Void"
+	quest.6A08000000000600.quest_desc: ["Combine Compasses, Ender Pearls, and Brass Casings for trans-void travel."]
+	quest.6A08000000000600.title: "Twist VIII: Void Navigation"
+	quest.6A08000000000700.quest_desc: ["Bind a Lodestone and expand your Waystone network."]
+	quest.6A08000000000700.title: "Braided Left VIII: Beaconed Network"
+	quest.6A08000000000800.quest_desc: ["Construct a nimble Biplane and extra Hulls."]
+	quest.6A08000000000800.title: "Braided Right VIII: Sky-Fleet"
+	quest.6A08000000000900.quest_desc: ["Unite Waystones, Warp Stones, Airships, and Biplanes!"]
+	quest.6A08000000000900.title: "Convergence VIII: Quantum Sky-Admiral"
+	quest.6A08000000000A00.quest_desc: ["HIDDEN: Carry a Spyglass, Clock, and Compass together at the edge of the void."]
+	quest.6A08000000000A00.title: "Secret VIII: Horizon Navigator"
+	quest.6A09000000000100.quest_desc: ["&61,050 Blocks Mined!&r Allays, Sniffers, Armadillos, Sculk, and Suspicious Sand appear!"]
+	quest.6A09000000000100.title: "Act IX: Arcane, Relics and Exotic Pets"
+	quest.6A09000000000200.quest_desc: ["Build a Blaze Enchanter and Mechanical Printer."]
+	quest.6A09000000000200.title: "Path A1: Liquid XP Foundry"
+	quest.6A09000000000300.quest_desc: ["Brush Suspicious Sand to uncover lost relics."]
+	quest.6A09000000000300.title: "Path B1: Void Archeologist"
+	quest.6A09000000000400.quest_desc: ["Construct a Blaze Forger and store Liquid Experience."]
+	quest.6A09000000000400.title: "Path A2: Blaze Forging"
+	quest.6A09000000000500.quest_desc: ["Erect a full level-30 Enchanting Table surrounded by Bookshelves."]
+	quest.6A09000000000500.title: "Path B2: Arcane Library"
+	quest.6A09000000000600.quest_desc: ["Combine Lecterns, an Anvil, and Amethyst Shards."]
+	quest.6A09000000000600.title: "Twist IX: Scriptorium Forge"
+	quest.6A09000000000700.quest_desc: ["Scale up with Item Vaults and dual Mechanical Printers."]
+	quest.6A09000000000700.title: "Braided Left IX: Mass Book Printing"
+	quest.6A09000000000800.quest_desc: ["Inspect relics behind Tinted Glass with Sculk Sensors."]
+	quest.6A09000000000800.title: "Braided Right IX: Silent Relic Study"
+	quest.6A09000000000900.quest_desc: ["Unite Blaze Enchanter, Blaze Forger, Enchanting Table, and Anvil!"]
+	quest.6A09000000000900.title: "Convergence IX: Grand Arcanist"
+	quest.6A09000000000A00.quest_desc: ["HIDDEN: Uncover the elusive Otherside Music Disc."]
+	quest.6A09000000000A00.title: "Secret IX: Echoes in the Vinyl"
+	quest.6A0A000000000100.quest_desc: ["&61,275 Blocks Mined!&r Villagers, Iron Golems, and Railway Casings emerge."]
+	quest.6A0A000000000100.title: "Act X: Inter-Island Sky-Rails and Trade"
+	quest.6A0A000000000200.quest_desc: ["Craft Train Tracks and Railway Casings (Hold [W] to Ponder)."]
+	quest.6A0A000000000200.title: "Path A1: Railway Foundry"
+	quest.6A0A000000000300.quest_desc: ["Deploy a Trading Depot (Create: Trading Floor)."]
+	quest.6A0A000000000300.title: "Path B1: Sky-Merchant Guild"
+	quest.6A0A000000000400.quest_desc: ["Build Train Controls and Display Boards for your Z = 0 railway."]
+	quest.6A0A000000000400.title: "Path A2: Inter-Island Express"
+	quest.6A0A000000000500.quest_desc: ["Accumulate Emerald Blocks and Lecterns for villager halls."]
+	quest.6A0A000000000500.title: "Path B2: Emerald Mint"
+	quest.6A0A000000000600.quest_desc: ["Link belts, Brass Funnels, and Emeralds into automated rail cargo."]
+	quest.6A0A000000000600.title: "Twist X: Freight Exchange"
+	quest.6A0A000000000700.quest_desc: ["Stockpile 128 Train Tracks and 8 Railway Casings."]
+	quest.6A0A000000000700.title: "Braided Left X: Transcontinental Track"
+	quest.6A0A000000000800.quest_desc: ["Scale up to dual Trading Depots and 8 Emerald Blocks."]
+	quest.6A0A000000000800.title: "Braided Right X: Trade Monopoly"
+	quest.6A0A000000000900.quest_desc: ["Unite 128 Tracks, Train Controls, Dual Trading Depots, and Emerald Blocks!"]
+	quest.6A0A000000000900.title: "Convergence X: Continental Sky-Line"
+	quest.6A0A000000000A00.quest_desc: ["HIDDEN: Ring a Bell beneath 4 Display Boards."]
+	quest.6A0A000000000A00.title: "Secret X: Grand Central Sky-Station"
+	quest.6A0B000000000100.quest_desc: ["&61,525 Blocks Mined!&r Core Hardness Tier III! End Stone, Shulkers, and Deep Uranium emerge."]
+	quest.6A0B000000000100.title: "Act XI: Nuclear Fission and End Realms"
+	quest.6A0B000000000200.quest_desc: ["Craft Fission Reactor Casings and Ports."]
+	quest.6A0B000000000200.title: "Path A1: Fission Containment"
+	quest.6A0B000000000300.quest_desc: ["Gather End Stone and Ender Pearls from the Core."]
+	quest.6A0B000000000300.title: "Path B1: End Void Harvest"
+	quest.6A0B000000000400.quest_desc: ["Build Industrial Turbine Casings and Advanced Cables."]
+	quest.6A0B000000000400.title: "Path A2: Turbine Grid"
+	quest.6A0B000000000500.quest_desc: ["Craft Shulker Boxes and harvest Chorus Fruit."]
+	quest.6A0B000000000500.title: "Path B2: Shulker Cargo"
+	quest.6A0B000000000600.quest_desc: ["Fuse Refined Obsidian, Crying Obsidian, and Eyes of Ender."]
+	quest.6A0B000000000600.title: "Twist XI: End-Obsidian Matrix"
+	quest.6A0B000000000700.quest_desc: ["Run a Solar Neutron Activator to produce Polonium Pellets."]
+	quest.6A0B000000000700.title: "Braided Left XI: Polonium Processing"
+	quest.6A0B000000000800.quest_desc: ["Expand to 4 Shulker Boxes lit by End Rods."]
+	quest.6A0B000000000800.title: "Braided Right XI: End-Fleet Storage"
+	quest.6A0B000000000900.quest_desc: ["Unite Fission Casings, Turbine Casings, Polonium, and Shulker Boxes!"]
+	quest.6A0B000000000900.title: "Convergence XI: Atomic Sky-Logistics"
+	quest.6A0B000000000A00.quest_desc: ["HIDDEN: Combine Dragon's Breath with Refined Obsidian."]
+	quest.6A0B000000000A00.title: "Secret XI: End-Alchemist's Core"
+	quest.6A0C000000000100.quest_desc: ["&61,800 Blocks Mined!&r Program CC: Tweaked Turtles, focus Lasers, and battle Breezes."]
+	quest.6A0C000000000100.title: "Act XII: Cybernetics, Lua and Lasers"
+	quest.6A0C000000000200.quest_desc: ["Craft a Turtle and Advanced Computer (CC: Tweaked)."]
+	quest.6A0C000000000200.title: "Path A1: Lua Robotics"
+	quest.6A0C000000000300.quest_desc: ["Craft a Mekanism Laser and Energy Upgrades."]
+	quest.6A0C000000000300.title: "Path B1: High-Energy Lasers"
+	quest.6A0C000000000400.quest_desc: ["Upgrade to an Advanced Turtle and Advanced Monitors."]
+	quest.6A0C000000000400.title: "Path A2: Autonomous Fleet"
+	quest.6A0C000000000500.quest_desc: ["Build a Laser Amplifier and Advanced Energy Cube."]
+	quest.6A0C000000000500.title: "Path B2: Laser Amplification"
+	quest.6A0C000000000600.quest_desc: ["Bridge Lua computers and laser grids with Wireless Modems, Fluix, and Ultimate Cables."]
+	quest.6A0C000000000600.title: "Twist XII: Wireless Telemetry"
+	quest.6A0C000000000700.quest_desc: ["Run dual Advanced Turtles and dual Advanced Computers."]
+	quest.6A0C000000000700.title: "Braided Left XII: Mainframe Cluster"
+	quest.6A0C000000000800.quest_desc: ["Focus two Lasers into two Laser Amplifiers."]
+	quest.6A0C000000000800.title: "Braided Right XII: Dual Beam Array"
+	quest.6A0C000000000900.quest_desc: ["Unite Advanced Turtles, Monitors, Lasers, and Amplifiers!"]
+	quest.6A0C000000000900.title: "Convergence XII: Cybernetic Laser Grid"
+	quest.6A0C000000000A00.quest_desc: ["HIDDEN: Pair Breeze Rods with Wireless Modems."]
+	quest.6A0C000000000A00.title: "Secret XII: Cyber-Gale Protocol"
+	quest.6A0D000000000100.quest_desc: ["&d2,100 Blocks Mined!&r Refined Obsidian, Ravagers, AE2 Autocrafting, and SPS await!"]
+	quest.6A0D000000000100.title: "Act XIII: Antimatter and Quantum Forge"
+	quest.6A0D000000000200.quest_desc: ["Pair ME Pattern Providers with Molecular Assemblers."]
+	quest.6A0D000000000200.title: "Path A1: AE2 Pattern Matrix"
+	quest.6A0D000000000300.quest_desc: ["Build SPS Casings and SPS Ports."]
+	quest.6A0D000000000300.title: "Path B1: Supercritical Phase Shifter"
+	quest.6A0D000000000400.quest_desc: ["Add a Pattern Encoding Terminal and Crafting Co-Processors."]
+	quest.6A0D000000000400.title: "Path A2: Accelerated CPUs"
+	quest.6A0D000000000500.quest_desc: ["Forge your MekaSuit Helmet and Bodyarmor."]
+	quest.6A0D000000000500.title: "Path B2: MekaSuit Upper Armor"
+	quest.6A0D000000000600.quest_desc: ["Combine Crafting Units, Refined Obsidian, and Polonium."]
+	quest.6A0D000000000600.title: "Twist XIII: Quantum Synthesis Bus"
+	quest.6A0D000000000700.quest_desc: ["Scale up to 64k ME Cells and 4 Pattern Providers."]
+	quest.6A0D000000000700.title: "Braided Left XIII: 64k Autocrafting"
+	quest.6A0D000000000800.quest_desc: ["Complete the suit with MekaSuit Pants and Boots."]
+	quest.6A0D000000000800.title: "Braided Right XIII: Full MekaSuit"
+	quest.6A0D000000000900.quest_desc: ["Unite Pattern Providers, Co-Processors, SPS Casings, and MekaSuit!"]
+	quest.6A0D000000000900.title: "Convergence XIII: Quantum Forge Sovereign"
+	quest.6A0D000000000A00.quest_desc: ["HIDDEN: Forge 4 Blocks of Refined Obsidian alongside 4x 64k ME Cells."]
+	quest.6A0D000000000A00.title: "Secret XIII: Obsidian Quantum Vault"
+	quest.6A0E000000000100.quest_desc: ["&62,450 Blocks Mined!&r Pandas, Frogs, Camels, and Atmospheric Biome Prisms emerge."]
+	quest.6A0E000000000100.title: "Act XIV: Biome Terraforming and Wildlife"
+	quest.6A0E000000000200.quest_desc: ["Use a Biome Prism and Biome Surveyor to shift your island climate."]
+	quest.6A0E000000000200.title: "Path A1: Atmospheric Sculptor"
+	quest.6A0E000000000300.quest_desc: ["Craft a Nature's Compass to scan biome palettes."]
+	quest.6A0E000000000300.title: "Path B1: World-Explorer's Compass"
+	quest.6A0E000000000400.quest_desc: ["Build a prism dome with Amethyst Shards and Tinted Glass."]
+	quest.6A0E000000000400.title: "Path A2: Crystal Sanctuary"
+	quest.6A0E000000000500.quest_desc: ["Grow diverse flora in Hopper Botany Pots atop Moss Blocks."]
+	quest.6A0E000000000500.title: "Path B2: Biosphere Nurseries"
+	quest.6A0E000000000600.quest_desc: ["Blend Podzol, Mycelium, and Packed Ice into one living island."]
+	quest.6A0E000000000600.title: "Twist XIV: Elemental Soils"
+	quest.6A0E000000000700.quest_desc: ["Sculpt a Cherry Grove using Prisms and Cherry Logs."]
+	quest.6A0E000000000700.title: "Braided Left XIV: Blossom Grove"
+	quest.6A0E000000000800.quest_desc: ["Combine Bamboo Blocks and Amethyst Blocks."]
+	quest.6A0E000000000800.title: "Braided Right XIV: Bamboo and Geodes"
+	quest.6A0E000000000900.quest_desc: ["Unite Biome Prisms, Surveyor, Nature's Compass, and Amethyst Blocks!"]
+	quest.6A0E000000000900.title: "Convergence XIV: Living Sky-Biosphere"
+	quest.6A0E000000000A00.quest_desc: ["HIDDEN: Decorate with Spore Blossoms and Azalea."]
+	quest.6A0E000000000A00.title: "Secret XIV: Lush Void Oasis"
+	quest.6A0F000000000100.quest_desc: ["&62,850 Blocks Mined!&r Solid Brass, Quartz, Emerald, and Gold Vaults pour from the Core."]
+	quest.6A0F000000000100.title: "Act XV: Chipped Architecture and Megabuilds"
+	quest.6A0F000000000200.quest_desc: ["Craft Chipped Mason and Botanist workbenches."]
+	quest.6A0F000000000200.title: "Path A1: Master Mason's Bench"
+	quest.6A0F000000000300.quest_desc: ["Stockpile Gold Blocks and Quartz Blocks."]
+	quest.6A0F000000000300.title: "Path B1: Sky-Vault Bullion"
+	quest.6A0F000000000400.quest_desc: ["Add Carpenter and Loom workbenches for full architectural variety."]
+	quest.6A0F000000000400.title: "Path A2: Carpenter and Weaver"
+	quest.6A0F000000000500.quest_desc: ["Assemble 9 Mechanical Crafters and a Mechanical Arm."]
+	quest.6A0F000000000500.title: "Path B2: Mechanical Crafter Array"
+	quest.6A0F000000000600.quest_desc: ["Twist Brass Casings, Emerald Blocks, and Quartz into monumental facades."]
+	quest.6A0F000000000600.title: "Twist XV: Gilded Architecture"
+	quest.6A0F000000000700.quest_desc: ["Crown your build with a Flywheel and Display Boards."]
+	quest.6A0F000000000700.title: "Braided Left XV: Kinetic Monument"
+	quest.6A0F000000000800.quest_desc: ["Amass 16 Gold Blocks and 4 Diamond Blocks."]
+	quest.6A0F000000000800.title: "Braided Right XV: Royal Treasury"
+	quest.6A0F000000000900.quest_desc: ["Unite Chipped Benches, Mechanical Crafters, Gold Blocks, and Emerald Blocks!"]
+	quest.6A0F000000000900.title: "Convergence XV: Grand Architect's Citadel"
+	quest.6A0F000000000A00.quest_desc: ["HIDDEN: Run 4 Mechanical Arms amidst 8 Diamond Blocks."]
+	quest.6A0F000000000A00.title: "Secret XV: Automaton Foundry"
+	quest.6A10000000000100.quest_desc: ["&63,300 Blocks Mined!&r Core Hardness Tier IV (Abyssal Density)! Netherite, Uranium, and Wither Skeletons emerge."]
+	quest.6A10000000000100.title: "Act XVI: Stellar Fusion and Void Gates"
+	quest.6A10000000000200.quest_desc: ["Build Fusion Reactor Frames and Solar Neutron Activators."]
+	quest.6A10000000000200.title: "Path A1: Fusion Containment"
+	quest.6A10000000000300.quest_desc: ["Gather Wither Skeleton Skulls from the Core."]
+	quest.6A10000000000300.title: "Path B1: Skulls of the Abyss"
+	quest.6A10000000000400.quest_desc: ["Place your Fusion Reactor Controller and Laser Amplifiers!"]
+	quest.6A10000000000400.title: "Path A2: Ignition of a Star"
+	quest.6A10000000000500.quest_desc: ["Summon and defeat the Wither for a Nether Star!"]
+	quest.6A10000000000500.title: "Path B2: Wither's Bane"
+	quest.6A10000000000600.quest_desc: ["Link Ultimate Cables, a Nether Star, and Steel Casings."]
+	quest.6A10000000000600.title: "Twist XVI: Star-Powered Grid"
+	quest.6A10000000000700.quest_desc: ["Expand to 32 Fusion Frames and a Quantum Entangloporter."]
+	quest.6A10000000000700.title: "Braided Left XVI: Mega-Torus"
+	quest.6A10000000000800.quest_desc: ["Forge a Beacon reinforced with Netherite Ingots."]
+	quest.6A10000000000800.title: "Braided Right XVI: Beacon Forging"
+	quest.6A10000000000900.quest_desc: ["Unite Fusion Controller, 32 Frames, 2 Nether Stars, and a Beacon!"]
+	quest.6A10000000000900.title: "Convergence XVI: Stellar Beacon Core"
+	quest.6A10000000000A00.quest_desc: ["HIDDEN: Cultivate 4 Wither Roses beside 2 Nether Stars."]
+	quest.6A10000000000A00.title: "Secret XVI: Withered Star-Garden"
+	quest.6A11000000000100.quest_desc: ["&63,800 Blocks Mined!&r Reinforced Deepslate and Ancient Debris form a dense abyssal crust."]
+	quest.6A11000000000100.title: "Act XVII: Abyssal Bedrock Crust"
+	quest.6A11000000000200.quest_desc: ["Craft an Atomic Disassembler to shred Abyssal Crust."]
+	quest.6A11000000000200.title: "Path A1: Crust Breakers"
+	quest.6A11000000000300.quest_desc: ["Mine 8 Ancient Debris from the Abyssal Crust."]
+	quest.6A11000000000300.title: "Path B1: Deep Crust Excavation"
+	quest.6A11000000000400.quest_desc: ["Build a Mekanism Digital Miner with Speed Upgrades."]
+	quest.6A11000000000400.title: "Path A2: Automated Digital Mining"
+	quest.6A11000000000500.quest_desc: ["Smelt Netherite Ingots and apply Smithing Templates."]
+	quest.6A11000000000500.title: "Path B2: Netherite Smithing"
+	quest.6A11000000000600.quest_desc: ["Combine Reinforced Deepslate, Netherite, and Refined Obsidian!"]
+	quest.6A11000000000600.title: "Twist XVII: Reinforced Alloying"
+	quest.6A11000000000700.quest_desc: ["Pair your Digital Miner with 2 Quantum Entangloporters."]
+	quest.6A11000000000700.title: "Braided Left XVII: Entangled Quarry"
+	quest.6A11000000000800.quest_desc: ["Forge 2 Netherite Blocks and a Netherite Backpack."]
+	quest.6A11000000000800.title: "Braided Right XVII: Netherite Vault"
+	quest.6A11000000000900.quest_desc: ["Unite Atomic Disassembler, Digital Miner, Netherite Blocks, and Netherite Backpack!"]
+	quest.6A11000000000900.title: "Convergence XVII: Abyssal Breaker"
+	quest.6A11000000000A00.quest_desc: ["HIDDEN: Collect Gilded Blackstone and 8 Netherite Ingots."]
+	quest.6A11000000000A00.title: "Secret XVII: Bastion Hoard"
+	quest.6A12000000000100.quest_desc: ["&c4,350 Blocks Mined!&r DANGER: Deep Dark Wardens can breach through the Anomaly Pedestal!"]
+	quest.6A12000000000100.title: "Act XVIII: Chronos and Deep Dark Rift"
+	quest.6A12000000000200.quest_desc: ["Harvest Sculk Sensors and Echo Shards."]
+	quest.6A12000000000200.title: "Path A1: Echoes of the Rift"
+	quest.6A12000000000300.quest_desc: ["Forge a Recovery Compass before facing Wardens."]
+	quest.6A12000000000300.title: "Path B1: Rift Navigator"
+	quest.6A12000000000400.quest_desc: ["Craft Calibrated Sculk Sensors and Sculk Catalysts."]
+	quest.6A12000000000400.title: "Path A2: Calibrated Resonance"
+	quest.6A12000000000500.quest_desc: ["Fortify with Crying Obsidian and Totems of Undying."]
+	quest.6A12000000000500.title: "Path B2: Undying Bastion"
+	quest.6A12000000000600.quest_desc: ["Bind Echo Shards, Amethyst Shards, and a Totem of Undying."]
+	quest.6A12000000000600.title: "Twist XVIII: Acoustic Shielding"
+	quest.6A12000000000700.quest_desc: ["Secure Sculk Shriekers and 4 Calibrated Sensors."]
+	quest.6A12000000000700.title: "Braided Left XVIII: Shrieker Array"
+	quest.6A12000000000800.quest_desc: ["Charge a Respawn Anchor and keep 3 Totems ready."]
+	quest.6A12000000000800.title: "Braided Right XVIII: Respawn Citadel"
+	quest.6A12000000000900.quest_desc: ["Unite Calibrated Sensors, Echo Shards, Recovery Compass, and Totems!"]
+	quest.6A12000000000900.title: "Convergence XVIII: Warden's Challenger"
+	quest.6A12000000000A00.quest_desc: ["HIDDEN: Assemble 4 Sculk Shriekers and Music Disc 5."]
+	quest.6A12000000000A00.title: "Secret XVIII: Ancient City Resonance"
+	quest.6A13000000000100.quest_desc: ["&64,950 Blocks Mined!&r Solid Diamond, Emerald, and Netherite Vaults pour from the Core."]
+	quest.6A13000000000100.title: "Act XIX: Celestial Crucible"
+	quest.6A13000000000200.quest_desc: ["Mass-produce 8 Steel Casings."]
+	quest.6A13000000000200.title: "Path A1: Reinforced Steel Grid"
+	quest.6A13000000000300.quest_desc: ["Stockpile 8 Diamond Blocks and 4 Netherite Ingots."]
+	quest.6A13000000000300.title: "Path B1: Vaults of Eternity"
+	quest.6A13000000000400.quest_desc: ["Deploy Quantum Entangloporters and Ultimate Cables."]
+	quest.6A13000000000400.title: "Path A2: Quantum Entanglement"
+	quest.6A13000000000500.quest_desc: ["Refine 2 Netherite Blocks and 16 Emerald Blocks."]
+	quest.6A13000000000500.title: "Path B2: Netherite and Emerald Hoard"
+	quest.6A13000000000600.quest_desc: ["Fuse Refined Obsidian, Diamond Blocks, and Precision Mechanisms!"]
+	quest.6A13000000000600.title: "Twist XIX: Precision Crucible"
+	quest.6A13000000000700.quest_desc: ["Link 4 Entangloporters with 4x 64k ME Cells."]
+	quest.6A13000000000700.title: "Braided Left XIX: Hyper-Distribution"
+	quest.6A13000000000800.quest_desc: ["Amass 4 Netherite Blocks and 32 Gold Blocks."]
+	quest.6A13000000000800.title: "Braided Right XIX: Celestial Treasury"
+	quest.6A13000000000900.quest_desc: ["Unite Entangloporters, Netherite, Diamond, and Emerald Blocks!"]
+	quest.6A13000000000900.title: "Convergence XIX: Crucible Sovereign"
+	quest.6A13000000000A00.quest_desc: ["HIDDEN: Hold 6 Netherite Blocks and 32 Diamond Blocks at once."]
+	quest.6A13000000000A00.title: "Secret XIX: Crucible Baron"
+	quest.6A14000000000100.quest_desc: ["&b5,600 Blocks Mined!&r Beacons, Sea Lanterns, and Elder Guardians breach from the astral ocean."]
+	quest.6A14000000000100.title: "Act XX: Astral Starforge"
+	quest.6A14000000000200.quest_desc: ["Erect a Beacon surrounded by Sea Lanterns."]
+	quest.6A14000000000200.title: "Path A1: Astral Beacon Array"
+	quest.6A14000000000300.quest_desc: ["Assemble a Conduit and gather Prismarine Shards."]
+	quest.6A14000000000300.title: "Path B1: Abyssal Conduit"
+	quest.6A14000000000400.quest_desc: ["Expand to 2 Beacons and 32 Sea Lanterns."]
+	quest.6A14000000000400.title: "Path A2: Starforged Citadel"
+	quest.6A14000000000500.quest_desc: ["Claim a Trident and Turtle Helmet from astral tides."]
+	quest.6A14000000000500.title: "Path B2: Trident of the Tides"
+	quest.6A14000000000600.quest_desc: ["Combine Hearts of the Sea, Nautilus Shells, and Nether Stars!"]
+	quest.6A14000000000600.title: "Twist XX: Oceanic Star-Core"
+	quest.6A14000000000700.quest_desc: ["Power 4 Beacons atop 16 Diamond Blocks."]
+	quest.6A14000000000700.title: "Braided Left XX: Quad Beacon Grid"
+	quest.6A14000000000800.quest_desc: ["Maintain dual Conduits and an enchanted Trident."]
+	quest.6A14000000000800.title: "Braided Right XX: Deep Sea Armory"
+	quest.6A14000000000900.quest_desc: ["Unite 4 Beacons, 2 Conduits, a Trident, and 32 Sea Lanterns!"]
+	quest.6A14000000000900.title: "Convergence XX: Astral Sovereign"
+	quest.6A14000000000A00.quest_desc: ["HIDDEN: Collect 8 Sponges and 8 Wet Sponges."]
+	quest.6A14000000000A00.title: "Secret XX: Astral Ocean Drainer"
+	quest.6A15000000000100.quest_desc: ["&66,300 Blocks Mined!&r 1.21.1 Heavy Cores, Oxidized Copper Bulbs, and Ominous Trial Keys emerge!"]
+	quest.6A15000000000100.title: "Act XXI: Trial Vault and Ominous Core"
+	quest.6A15000000000200.quest_desc: ["Collect Trial Keys and Copper Grates."]
+	quest.6A15000000000200.title: "Path A1: Trial Chamber Surge"
+	quest.6A15000000000300.quest_desc: ["Gather Breeze Rods and Wind Charges for sky mobility."]
+	quest.6A15000000000300.title: "Path B1: Wind Burst Arsenal"
+	quest.6A15000000000400.quest_desc: ["Unlock Ominous Trial Keys and Oxidized Copper Bulbs."]
+	quest.6A15000000000400.title: "Path A2: Ominous Copper Trials"
+	quest.6A15000000000500.quest_desc: ["Combine a Heavy Core and Breeze Rod to forge the 1.21.1 Mace!"]
+	quest.6A15000000000500.title: "Path B2: Hammer of the Sky"
+	quest.6A15000000000600.quest_desc: ["Twist Ominous Keys, Breeze Rods, and solid Copper Blocks!"]
+	quest.6A15000000000600.title: "Twist XXI: Copper Gale Catalyst"
+	quest.6A15000000000700.quest_desc: ["Stockpile 16 Oxidized Copper Bulbs and 4 Trial Keys."]
+	quest.6A15000000000700.title: "Braided Left XXI: Vault Illumination"
+	quest.6A15000000000800.quest_desc: ["Wield the Mace with 32 Wind Charges."]
+	quest.6A15000000000800.title: "Braided Right XXI: Sky-Smasher"
+	quest.6A15000000000900.quest_desc: ["Unite Ominous Keys, Oxidized Bulbs, Heavy Core, and Mace!"]
+	quest.6A15000000000900.title: "Convergence XXI: Trial Vault Champion"
+	quest.6A15000000000A00.quest_desc: ["HIDDEN: Carry 2 Ominous Bottles alongside 2 Heavy Cores."]
+	quest.6A15000000000A00.title: "Secret XXI: Ominous Sky-Breaker"
+	quest.6A16000000000100.quest_desc: ["&d7,050 Blocks Mined!&r Mooshrooms, Striders, Glow Squids, Llamas, and Enchanted Golden Apples emerge!"]
+	quest.6A16000000000100.title: "Act XXII: Mythic Beast and Apex Tamer"
+	quest.6A16000000000200.quest_desc: ["Gather 8 Golden Apples for sanctuary upkeep."]
+	quest.6A16000000000200.title: "Path A1: Golden Harvest"
+	quest.6A16000000000300.quest_desc: ["Craft Leads and Saddles for your mythic menagerie."]
+	quest.6A16000000000300.title: "Path B1: Master Beast Handler"
+	quest.6A16000000000400.quest_desc: ["Secure Enchanted Golden Apples and Golden Carrots."]
+	quest.6A16000000000400.title: "Path A2: Ambrosia of the Gods"
+	quest.6A16000000000500.quest_desc: ["Feed Master and Dire Treats to push your companion to apex rank!"]
+	quest.6A16000000000500.title: "Path B2: Apex Companion Mastery"
+	quest.6A16000000000600.quest_desc: ["Combine Enchanted Apples, Dire Treats, and Name Tags."]
+	quest.6A16000000000600.title: "Twist XXII: Mythic Bond"
+	quest.6A16000000000700.quest_desc: ["Stockpile 4 Enchanted Golden Apples and 4 Cakes."]
+	quest.6A16000000000700.title: "Braided Left XXII: Feast of Immortals"
+	quest.6A16000000000800.quest_desc: ["Prepare 2 Wolf Armors and 4 Saddles."]
+	quest.6A16000000000800.title: "Braided Right XXII: Armored Caravan"
+	quest.6A16000000000900.quest_desc: ["Unite Enchanted Apples, Dire Treats, Wolf Armor, and Saddles!"]
+	quest.6A16000000000900.title: "Convergence XXII: Ultimate Sky-Menagerie"
+	quest.6A16000000000A00.quest_desc: ["HIDDEN: Build a fungal oasis with Shroomlights and Mycelium."]
+	quest.6A16000000000A00.title: "Secret XXII: Mooshroom Haven"
+	quest.6A17000000000100.quest_desc: ["&57,850 Blocks Mined!&r Sculk Shriekers, Netherite Blocks, and Antimatter Pellets herald the final threshold!"]
+	quest.6A17000000000100.title: "Act XXIII: Void Sovereign Eclipse"
+	quest.6A17000000000200.quest_desc: ["Refine Plutonium Pellets from nuclear reprocessing."]
+	quest.6A17000000000200.title: "Path A1: Plutonium Core"
+	quest.6A17000000000300.quest_desc: ["Fortify with Obsidian and a Respawn Anchor."]
+	quest.6A17000000000300.title: "Path B1: Eclipse Bastion"
+	quest.6A17000000000400.quest_desc: ["Synthesize Antimatter Pellets alongside Polonium."]
+	quest.6A17000000000400.title: "Path A2: Antimatter Synthesis"
+	quest.6A17000000000500.quest_desc: ["Stand amidst Netherite Blocks and Sculk Shriekers."]
+	quest.6A17000000000500.title: "Path B2: Sovereign Threshold"
+	quest.6A17000000000600.quest_desc: ["Twist Antimatter, Netherite, and Refined Obsidian together!"]
+	quest.6A17000000000600.title: "Twist XXIII: Eclipse Singularity"
+	quest.6A17000000000700.quest_desc: ["Scale up to 4 Antimatter Pellets and 16 SPS Casings."]
+	quest.6A17000000000700.title: "Braided Left XXIII: SPS Array"
+	quest.6A17000000000800.quest_desc: ["Reinforce with 4 Netherite Blocks and 32 Crying Obsidian."]
+	quest.6A17000000000800.title: "Braided Right XXIII: Abyssal Stronghold"
+	quest.6A17000000000900.quest_desc: ["Unite Antimatter, Plutonium, Netherite Blocks, and Sculk Shriekers!"]
+	quest.6A17000000000900.title: "Convergence XXIII: Herald of the Omega"
+	quest.6A17000000000A00.quest_desc: ["HIDDEN: Claim a legendary Dragon Egg."]
+	quest.6A17000000000A00.title: "Secret XXIII: Relic of the Void Dragon"
+	quest.6A18000000000100.quest_desc: ["&6&l8,700 BLOCKS MINED!&r All 24 Cinematic Acts conquered! Ancient Debris, Netherite, Heavy Cores, Beacons, and Nether Stars flow endlessly!"]
+	quest.6A18000000000100.title: "Act XXIV: Infinite Omega Singularity"
+	quest.6A18000000000200.quest_desc: ["Erect 4 Beacons across your sky-empire."]
+	quest.6A18000000000200.title: "Path A1: Beacon Constellation"
+	quest.6A18000000000300.quest_desc: ["Assemble 4 solid Netherite Blocks at the heart of your citadel."]
+	quest.6A18000000000300.title: "Path B1: Netherite Monolith"
+	quest.6A18000000000400.quest_desc: ["Pair 4 Antimatter Pellets with 4 Quantum Entangloporters."]
+	quest.6A18000000000400.title: "Path A2: Antimatter Vault"
+	quest.6A18000000000500.quest_desc: ["Amass 4 Nether Stars and 2 Heavy Cores."]
+	quest.6A18000000000500.title: "Path B2: Constellation of Stars"
+	quest.6A18000000000600.quest_desc: ["Fuse Antimatter, Netherite Blocks, and Nether Stars into pure singularity!"]
+	quest.6A18000000000600.title: "Twist XXIV: Omega Triad"
+	quest.6A18000000000700.quest_desc: ["Combine 8 Antimatter Pellets and 8x 64k ME Cells."]
+	quest.6A18000000000700.title: "Braided Left XXIV: Infinite Storage Core"
+	quest.6A18000000000800.quest_desc: ["Store 8 Netherite Blocks and 8 Enchanted Golden Apples."]
+	quest.6A18000000000800.title: "Braided Right XXIV: Immortal Treasury"
+	quest.6A18000000000900.quest_desc: ["Present 8 Beacons, 8 Netherite Blocks, 8 Antimatter Pellets, and 4 Heavy Cores to claim the Sovereign Trophy!"]
+	quest.6A18000000000900.title: "Convergence XXIV: Crown of the Sky-Alliance"
+	quest.6A18000000000A00.quest_desc: ["HIDDEN: Hold 16 Nether Stars and 8 Beacons at once."]
+	quest.6A18000000000A00.title: "Secret XXIV: Architect of Eternity"
+	quest.7C01000000000100.quest_desc: ["Build a 1x1 Oak Drawer for dense bulk storage."]
+	quest.7C01000000000100.title: "Storage Path A: Storage Drawers"
+	quest.7C01000000000200.quest_desc: ["Connect your chests and drawers with an Inventory Connector and Storage Terminal."]
+	quest.7C01000000000200.title: "Storage Path B: Tom's Terminal"
+	quest.7C01000000000300.quest_desc: ["After mastering Drawers and Tom's Storage, upgrade into an AE2 ME Drive!"]
+	quest.7C01000000000300.title: "Combined Storage: Digital Migration"
+	quest.7C01000000000400.quest_desc: ["Braved the abyss and lived thanks to Forgiving Void."]
+	quest.7C01000000000400.title: "Achievement: Void Skydiver"
+	quest.7C01000000000500.quest_desc: ["SECRET UNLOCKED: Reached Act IX (1,050 blocks mined)!"]
+	quest.7C01000000000500.title: "Hidden Achievement: Thousand Blocks Mined"
+	quest.7C01000000000600.quest_desc: ["Reached Act XV (2,850 blocks mined) after crossing the 1,000-block threshold."]
+	quest.7C01000000000600.title: "Hidden Milestone: Halfway to Infinity"
+	quest.7C01000000000700.quest_desc: ["Unlocked Act XXIV (8,700 blocks mined) and conquered every stage!"]
+	quest.7C01000000000700.title: "Grand Achievement: Conqueror of the Sky-Void"
+	quest.7C01000000000800.quest_desc: ["SECRET UNLOCKED: Combined Create Precision, Mekanism Osmium, and AE2 Fluix!"]
+	quest.7C01000000000800.title: "Hidden Achievement: Industrial Triumvirate"
+	quest.7C01000000000900.quest_desc: ["Scaled the Triumvirate up to Refined Obsidian, Brass Casings, and Crafting Units!"]
+	quest.7C01000000000900.title: "Hidden Mastery: Quantum Triad"
+	quest.7C01000000000A00.quest_desc: ["SECRET UNLOCKED: Hoarded Cakes, Golden Apples, and Honey Bottles!"]
+	quest.7C01000000000A00.title: "Hidden Achievement: Culinary Legend"
+	quest.7C01000000000B00.quest_desc: ["SECRET UNLOCKED: Collected Echo Shards, Sculk Catalysts, and Totems!"]
+	quest.7C01000000000B00.title: "Hidden Achievement: Warden Hunter"
+	task.7C01000000000401.title: "Survive a Plunge into the Void"
+}

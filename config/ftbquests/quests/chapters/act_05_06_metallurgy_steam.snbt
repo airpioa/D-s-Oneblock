@@ -1,0 +1,694 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "act_05_06_metallurgy_steam"
+	group: "1000000000000001"
+	icon: {
+		id: "mekanism:metallurgic_infuser"
+	}
+	id: "4100000000000003"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6A04000000000100"]
+			id: "6A05000000000100"
+			rewards: [{
+				count: 3
+				id: "6A05000000000101"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "oneblock:phase5"
+				criterion: ""
+				id: "6A05000000000151"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A05000000000100"]
+			id: "6A05000000000200"
+			rewards: [
+				{
+					count: 4
+					id: "6A05000000000201"
+					item: {
+						count: 1
+						id: "mekanism:basic_universal_cable"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6A05000000000202"
+					item: {
+						count: 1
+						id: "kubejs:sky_token"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A05000000000233"
+					item: { count: 1, id: "mekanism:metallurgic_infuser" }
+					type: "item"
+				}
+				{
+					id: "6A05000000000234"
+					item: { count: 1, id: "mekanismgenerators:heat_generator" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A05000000000100"]
+			id: "6A05000000000300"
+			rewards: [{
+				count: 2
+				id: "6A05000000000301"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A05000000000333"
+					item: { count: 1, id: "create:millstone" }
+					type: "item"
+				}
+				{
+					id: "6A05000000000334"
+					item: { count: 1, id: "create:encased_fan" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A05000000000200"]
+			id: "6A05000000000400"
+			rewards: [{
+				count: 3
+				id: "6A05000000000401"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A05000000000433"
+					item: { count: 1, id: "mekanism:enrichment_chamber" }
+					type: "item"
+				}
+				{
+					id: "6A05000000000434"
+					item: { count: 1, id: "mekanism:crusher" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6A05000000000300"]
+			id: "6A05000000000500"
+			rewards: [{
+				count: 3
+				id: "6A05000000000501"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A05000000000533"
+					item: { count: 1, id: "create:mechanical_mixer" }
+					type: "item"
+				}
+				{
+					id: "6A05000000000534"
+					item: { count: 1, id: "create:basin" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6A05000000000200"
+				"6A05000000000300"
+			]
+			id: "6A05000000000600"
+			rewards: [{
+				count: 3
+				id: "6A05000000000601"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [
+				{
+					count: 8L
+					id: "6A05000000000633"
+					item: { count: 1, id: "mekanism:basic_universal_cable" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6A05000000000634"
+					item: { count: 1, id: "create:andesite_casing" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6A05000000000635"
+					item: { count: 1, id: "mekanism:ingot_osmium" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6A05000000000400"
+				"6A05000000000600"
+			]
+			id: "6A05000000000700"
+			rewards: [{
+				count: 4
+				id: "6A05000000000701"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A05000000000733"
+					item: { count: 1, id: "mekanism:energized_smelter" }
+					type: "item"
+				}
+				{
+					id: "6A05000000000734"
+					item: { count: 1, id: "mekanism:basic_energy_cube" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6A05000000000500"
+				"6A05000000000600"
+			]
+			id: "6A05000000000800"
+			rewards: [{
+				count: 4
+				id: "6A05000000000801"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 2L
+					id: "6A05000000000833"
+					item: { count: 1, id: "create:large_water_wheel" }
+					type: "item"
+				}
+				{
+					id: "6A05000000000834"
+					item: { count: 1, id: "create:rotation_speed_controller" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6A05000000000700"
+				"6A05000000000800"
+			]
+			id: "6A05000000000900"
+			rewards: [
+				{
+					count: 4
+					id: "6A05000000000901"
+					item: {
+						count: 1
+						id: "mekanism:upgrade_speed"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6A05000000000902"
+					item: {
+						count: 1
+						id: "kubejs:architect_token"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.4d
+			tasks: [
+				{
+					id: "6A05000000000933"
+					item: { count: 1, id: "mekanism:metallurgic_infuser" }
+					type: "item"
+				}
+				{
+					id: "6A05000000000934"
+					item: { count: 1, id: "mekanism:enrichment_chamber" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6A05000000000935"
+					item: { count: 1, id: "create:encased_fan" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6A05000000000936"
+					item: { count: 1, id: "mekanism:ingot_osmium" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6A05000000000100"]
+			hide_dependency_lines: true
+			id: "6A05000000000A00"
+			invisible: true
+			rewards: [{
+				count: 5
+				id: "6A05000000000A01"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "star"
+			size: 1.25d
+			tasks: [
+				{
+					count: 2L
+					id: "6A05000000000A33"
+					item: { count: 1, id: "mekanismgenerators:wind_generator" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6A05000000000A34"
+					item: { count: 1, id: "minecraft:lightning_rod" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6A05000000000100"]
+			id: "6A06000000000100"
+			rewards: [{
+				count: 3
+				id: "6A06000000000101"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "oneblock:phase6"
+				criterion: ""
+				id: "6A06000000000151"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A06000000000100"]
+			id: "6A06000000000200"
+			rewards: [{
+				count: 2
+				id: "6A06000000000201"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A06000000000233"
+					item: { count: 1, id: "create:blaze_burner" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6A06000000000234"
+					item: { count: 1, id: "create:fluid_tank" }
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A06000000000100"]
+			id: "6A06000000000300"
+			rewards: [{
+				count: 2
+				id: "6A06000000000301"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A06000000000333"
+					item: { count: 1, id: "createdieselgenerators:basin_lid" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6A06000000000334"
+					item: { count: 1, id: "create:brass_ingot" }
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A06000000000200"]
+			id: "6A06000000000400"
+			rewards: [{
+				count: 4
+				id: "6A06000000000401"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A06000000000433"
+					item: { count: 1, id: "create:steam_engine" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6A06000000000434"
+					item: { count: 1, id: "create:mechanical_pump" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6A06000000000300"]
+			id: "6A06000000000500"
+			rewards: [{
+				count: 4
+				id: "6A06000000000501"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A06000000000533"
+					item: { count: 1, id: "createdieselgenerators:diesel_engine" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6A06000000000534"
+					item: { count: 1, id: "create:fluid_pipe" }
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6A06000000000200"
+				"6A06000000000300"
+			]
+			id: "6A06000000000600"
+			rewards: [{
+				count: 4
+				id: "6A06000000000601"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [
+				{
+					count: 2L
+					id: "6A06000000000633"
+					item: { count: 1, id: "create:precision_mechanism" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6A06000000000634"
+					item: { count: 1, id: "create:brass_casing" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6A06000000000635"
+					item: { count: 1, id: "create:electron_tube" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6A06000000000400"
+				"6A06000000000600"
+			]
+			id: "6A06000000000700"
+			rewards: [{
+				count: 4
+				id: "6A06000000000701"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 2L
+					id: "6A06000000000733"
+					item: { count: 1, id: "create:deployer" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "6A06000000000734"
+					item: { count: 1, id: "create:mechanical_crafter" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6A06000000000500"
+				"6A06000000000600"
+			]
+			id: "6A06000000000800"
+			rewards: [{
+				count: 4
+				id: "6A06000000000801"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A06000000000833"
+					item: { count: 1, id: "create:sequenced_gearshift" }
+					type: "item"
+				}
+				{
+					id: "6A06000000000834"
+					item: { count: 1, id: "create:rotation_speed_controller" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6A06000000000700"
+				"6A06000000000800"
+			]
+			id: "6A06000000000900"
+			rewards: [
+				{
+					id: "6A06000000000901"
+					item: {
+						count: 1
+						id: "kubejs:mystery_crate_tech"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6A06000000000902"
+					item: {
+						count: 1
+						id: "kubejs:architect_token"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.4d
+			tasks: [
+				{
+					id: "6A06000000000933"
+					item: { count: 1, id: "create:steam_engine" }
+					type: "item"
+				}
+				{
+					id: "6A06000000000934"
+					item: { count: 1, id: "createdieselgenerators:diesel_engine" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6A06000000000935"
+					item: { count: 1, id: "create:precision_mechanism" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6A06000000000936"
+					item: { count: 1, id: "create:brass_casing" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6A06000000000100"]
+			hide_dependency_lines: true
+			id: "6A06000000000A00"
+			invisible: true
+			rewards: [{
+				count: 2
+				id: "6A06000000000A01"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "star"
+			size: 1.25d
+			tasks: [
+				{
+					count: 2L
+					id: "6A06000000000A33"
+					item: { count: 1, id: "create:mechanical_arm" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6A06000000000A34"
+					item: { count: 1, id: "create:electron_tube" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 2.5d
+		}
+	]
+}

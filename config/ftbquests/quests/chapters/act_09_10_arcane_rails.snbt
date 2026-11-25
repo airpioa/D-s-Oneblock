@@ -1,0 +1,705 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "act_09_10_arcane_rails"
+	group: "1000000000000002"
+	icon: {
+		id: "create:track"
+	}
+	id: "4100000000000005"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6A08000000000100"]
+			id: "6A09000000000100"
+			rewards: [{
+				count: 4
+				id: "6A09000000000101"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "oneblock:phase9"
+				criterion: ""
+				id: "6A09000000000151"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A09000000000100"]
+			id: "6A09000000000200"
+			rewards: [
+				{
+					id: "6A09000000000201"
+					item: {
+						count: 1
+						id: "create_enchantment_industry:experience_bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6A09000000000202"
+					item: {
+						count: 1
+						id: "kubejs:sky_token"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A09000000000233"
+					item: { count: 1, id: "create_enchantment_industry:blaze_enchanter" }
+					type: "item"
+				}
+				{
+					id: "6A09000000000234"
+					item: { count: 1, id: "create_enchantment_industry:printer" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A09000000000100"]
+			id: "6A09000000000300"
+			rewards: [{
+				count: 2
+				id: "6A09000000000301"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A09000000000333"
+					item: { count: 1, id: "minecraft:brush" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6A09000000000334"
+					item: { count: 1, id: "minecraft:suspicious_sand" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A09000000000200"]
+			id: "6A09000000000400"
+			rewards: [{
+				count: 4
+				id: "6A09000000000401"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A09000000000433"
+					item: { count: 1, id: "create_enchantment_industry:blaze_forger" }
+					type: "item"
+				}
+				{
+					id: "6A09000000000434"
+					item: { count: 1, id: "create_enchantment_industry:experience_bucket" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6A09000000000300"]
+			id: "6A09000000000500"
+			rewards: [{
+				count: 4
+				id: "6A09000000000501"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A09000000000533"
+					item: { count: 1, id: "minecraft:enchanting_table" }
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "6A09000000000534"
+					item: { count: 1, id: "minecraft:bookshelf" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6A09000000000200"
+				"6A09000000000300"
+			]
+			id: "6A09000000000600"
+			rewards: [{
+				count: 4
+				id: "6A09000000000601"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [
+				{
+					count: 2L
+					id: "6A09000000000633"
+					item: { count: 1, id: "minecraft:lectern" }
+					type: "item"
+				}
+				{
+					id: "6A09000000000634"
+					item: { count: 1, id: "minecraft:anvil" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6A09000000000635"
+					item: { count: 1, id: "minecraft:amethyst_shard" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6A09000000000400"
+				"6A09000000000600"
+			]
+			id: "6A09000000000700"
+			rewards: [{
+				count: 4
+				id: "6A09000000000701"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 2L
+					id: "6A09000000000733"
+					item: { count: 1, id: "create:item_vault" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6A09000000000734"
+					item: { count: 1, id: "create_enchantment_industry:printer" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6A09000000000500"
+				"6A09000000000600"
+			]
+			id: "6A09000000000800"
+			rewards: [{
+				count: 4
+				id: "6A09000000000801"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 2L
+					id: "6A09000000000833"
+					item: { count: 1, id: "minecraft:sculk_sensor" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6A09000000000834"
+					item: { count: 1, id: "minecraft:tinted_glass" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6A09000000000700"
+				"6A09000000000800"
+			]
+			id: "6A09000000000900"
+			rewards: [
+				{
+					count: 2
+					id: "6A09000000000901"
+					item: {
+						count: 1
+						id: "kubejs:mystery_crate_basic"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6A09000000000902"
+					item: {
+						count: 1
+						id: "kubejs:architect_token"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.4d
+			tasks: [
+				{
+					id: "6A09000000000933"
+					item: { count: 1, id: "create_enchantment_industry:blaze_enchanter" }
+					type: "item"
+				}
+				{
+					id: "6A09000000000934"
+					item: { count: 1, id: "create_enchantment_industry:blaze_forger" }
+					type: "item"
+				}
+				{
+					id: "6A09000000000935"
+					item: { count: 1, id: "minecraft:enchanting_table" }
+					type: "item"
+				}
+				{
+					id: "6A09000000000936"
+					item: { count: 1, id: "minecraft:anvil" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6A09000000000100"]
+			hide_dependency_lines: true
+			id: "6A09000000000A00"
+			invisible: true
+			rewards: [{
+				count: 2
+				id: "6A09000000000A01"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "star"
+			size: 1.25d
+			tasks: [{
+				id: "6A09000000000A33"
+				item: { count: 1, id: "minecraft:music_disc_otherside" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6A09000000000100"]
+			id: "6A0A000000000100"
+			rewards: [{
+				count: 5
+				id: "6A0A000000000101"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "oneblock:phase10"
+				criterion: ""
+				id: "6A0A000000000151"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A0A000000000100"]
+			id: "6A0A000000000200"
+			rewards: [
+				{
+					count: 32
+					id: "6A0A000000000201"
+					item: {
+						count: 1
+						id: "create:track"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6A0A000000000202"
+					item: {
+						count: 1
+						id: "kubejs:sky_token"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 32L
+					id: "6A0A000000000233"
+					item: { count: 1, id: "create:track" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6A0A000000000234"
+					item: { count: 1, id: "create:railway_casing" }
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A0A000000000100"]
+			id: "6A0A000000000300"
+			rewards: [
+				{
+					count: 16
+					id: "6A0A000000000301"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6A0A000000000302"
+					item: {
+						count: 1
+						id: "kubejs:sky_token"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "6A0A000000000333"
+				item: { count: 1, id: "trading_floor:trading_depot" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A0A000000000200"]
+			id: "6A0A000000000400"
+			rewards: [{
+				count: 4
+				id: "6A0A000000000401"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A0A000000000433"
+					item: { count: 1, id: "create:controls" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6A0A000000000434"
+					item: { count: 1, id: "create:display_board" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6A0A000000000300"]
+			id: "6A0A000000000500"
+			rewards: [{
+				count: 4
+				id: "6A0A000000000501"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 4L
+					id: "6A0A000000000533"
+					item: { count: 1, id: "minecraft:emerald_block" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6A0A000000000534"
+					item: { count: 1, id: "minecraft:lectern" }
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6A0A000000000200"
+				"6A0A000000000300"
+			]
+			id: "6A0A000000000600"
+			rewards: [{
+				count: 4
+				id: "6A0A000000000601"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [
+				{
+					count: 4L
+					id: "6A0A000000000633"
+					item: { count: 1, id: "create:brass_funnel" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6A0A000000000634"
+					item: { count: 1, id: "create:belt_connector" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "6A0A000000000635"
+					item: { count: 1, id: "minecraft:emerald" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6A0A000000000400"
+				"6A0A000000000600"
+			]
+			id: "6A0A000000000700"
+			rewards: [{
+				count: 5
+				id: "6A0A000000000701"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 128L
+					id: "6A0A000000000733"
+					item: { count: 1, id: "create:track" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6A0A000000000734"
+					item: { count: 1, id: "create:railway_casing" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6A0A000000000500"
+				"6A0A000000000600"
+			]
+			id: "6A0A000000000800"
+			rewards: [{
+				count: 5
+				id: "6A0A000000000801"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 2L
+					id: "6A0A000000000833"
+					item: { count: 1, id: "trading_floor:trading_depot" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6A0A000000000834"
+					item: { count: 1, id: "minecraft:emerald_block" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6A0A000000000700"
+				"6A0A000000000800"
+			]
+			id: "6A0A000000000900"
+			rewards: [
+				{
+					count: 64
+					id: "6A0A000000000901"
+					item: {
+						count: 1
+						id: "create:track"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6A0A000000000902"
+					item: {
+						count: 1
+						id: "kubejs:architect_token"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.4d
+			tasks: [
+				{
+					count: 128L
+					id: "6A0A000000000933"
+					item: { count: 1, id: "create:track" }
+					type: "item"
+				}
+				{
+					id: "6A0A000000000934"
+					item: { count: 1, id: "create:controls" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6A0A000000000935"
+					item: { count: 1, id: "trading_floor:trading_depot" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6A0A000000000936"
+					item: { count: 1, id: "minecraft:emerald_block" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6A0A000000000100"]
+			hide_dependency_lines: true
+			id: "6A0A000000000A00"
+			invisible: true
+			rewards: [{
+				count: 2
+				id: "6A0A000000000A01"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "star"
+			size: 1.25d
+			tasks: [
+				{
+					count: 4L
+					id: "6A0A000000000A33"
+					item: { count: 1, id: "create:display_board" }
+					type: "item"
+				}
+				{
+					id: "6A0A000000000A34"
+					item: { count: 1, id: "minecraft:bell" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 2.5d
+		}
+	]
+}

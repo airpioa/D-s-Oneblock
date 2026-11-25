@@ -1,0 +1,710 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "act_21_22_trials_mythic"
+	group: "1000000000000004"
+	icon: {
+		id: "minecraft:heavy_core"
+	}
+	id: "410000000000000B"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6A14000000000100"]
+			id: "6A15000000000100"
+			rewards: [
+				{
+					count: 6
+					id: "6A15000000000101"
+					item: {
+						count: 1
+						id: "kubejs:architect_token"
+					}
+					type: "item"
+				}
+				{
+					id: "6A15000000000102"
+					item: {
+						count: 1
+						id: "minecraft:heavy_core"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "oneblock:phase21"
+				criterion: ""
+				id: "6A15000000000151"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A15000000000100"]
+			id: "6A15000000000200"
+			rewards: [{
+				count: 3
+				id: "6A15000000000201"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 2L
+					id: "6A15000000000233"
+					item: { count: 1, id: "minecraft:trial_key" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6A15000000000234"
+					item: { count: 1, id: "minecraft:copper_grate" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A15000000000100"]
+			id: "6A15000000000300"
+			rewards: [{
+				count: 3
+				id: "6A15000000000301"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 8L
+					id: "6A15000000000333"
+					item: { count: 1, id: "minecraft:breeze_rod" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6A15000000000334"
+					item: { count: 1, id: "minecraft:wind_charge" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A15000000000200"]
+			id: "6A15000000000400"
+			rewards: [
+				{
+					count: 8
+					id: "6A15000000000401"
+					item: {
+						count: 1
+						id: "minecraft:breeze_rod"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6A15000000000402"
+					item: {
+						count: 1
+						id: "kubejs:architect_token"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 2L
+					id: "6A15000000000433"
+					item: { count: 1, id: "minecraft:ominous_trial_key" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6A15000000000434"
+					item: { count: 1, id: "minecraft:oxidized_copper_bulb" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6A15000000000300"]
+			id: "6A15000000000500"
+			rewards: [{
+				count: 5
+				id: "6A15000000000501"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A15000000000533"
+					item: { count: 1, id: "minecraft:heavy_core" }
+					type: "item"
+				}
+				{
+					id: "6A15000000000534"
+					item: { count: 1, id: "minecraft:mace" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6A15000000000200"
+				"6A15000000000300"
+			]
+			id: "6A15000000000600"
+			rewards: [{
+				count: 4
+				id: "6A15000000000601"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [
+				{
+					id: "6A15000000000633"
+					item: { count: 1, id: "minecraft:ominous_trial_key" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6A15000000000634"
+					item: { count: 1, id: "minecraft:breeze_rod" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6A15000000000635"
+					item: { count: 1, id: "minecraft:copper_block" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6A15000000000400"
+				"6A15000000000600"
+			]
+			id: "6A15000000000700"
+			rewards: [{
+				count: 5
+				id: "6A15000000000701"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 16L
+					id: "6A15000000000733"
+					item: { count: 1, id: "minecraft:oxidized_copper_bulb" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6A15000000000734"
+					item: { count: 1, id: "minecraft:trial_key" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6A15000000000500"
+				"6A15000000000600"
+			]
+			id: "6A15000000000800"
+			rewards: [{
+				count: 5
+				id: "6A15000000000801"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A15000000000833"
+					item: { count: 1, id: "minecraft:mace" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "6A15000000000834"
+					item: { count: 1, id: "minecraft:wind_charge" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6A15000000000700"
+				"6A15000000000800"
+			]
+			id: "6A15000000000900"
+			rewards: [
+				{
+					count: 5
+					id: "6A15000000000901"
+					item: {
+						count: 1
+						id: "kubejs:mystery_crate_tech"
+					}
+					type: "item"
+				}
+				{
+					count: 9
+					id: "6A15000000000902"
+					item: {
+						count: 1
+						id: "kubejs:architect_token"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.4d
+			tasks: [
+				{
+					count: 2L
+					id: "6A15000000000933"
+					item: { count: 1, id: "minecraft:ominous_trial_key" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6A15000000000934"
+					item: { count: 1, id: "minecraft:oxidized_copper_bulb" }
+					type: "item"
+				}
+				{
+					id: "6A15000000000935"
+					item: { count: 1, id: "minecraft:heavy_core" }
+					type: "item"
+				}
+				{
+					id: "6A15000000000936"
+					item: { count: 1, id: "minecraft:mace" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6A15000000000100"]
+			hide_dependency_lines: true
+			id: "6A15000000000A00"
+			invisible: true
+			rewards: [{
+				count: 6
+				id: "6A15000000000A01"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "star"
+			size: 1.25d
+			tasks: [
+				{
+					count: 2L
+					id: "6A15000000000A33"
+					item: { count: 1, id: "minecraft:ominous_bottle" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6A15000000000A34"
+					item: { count: 1, id: "minecraft:heavy_core" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6A15000000000100"]
+			id: "6A16000000000100"
+			rewards: [{
+				count: 7
+				id: "6A16000000000101"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "oneblock:phase22"
+				criterion: ""
+				id: "6A16000000000151"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A16000000000100"]
+			id: "6A16000000000200"
+			rewards: [{
+				count: 3
+				id: "6A16000000000201"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				count: 8L
+				id: "6A16000000000233"
+				item: { count: 1, id: "minecraft:golden_apple" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A16000000000100"]
+			id: "6A16000000000300"
+			rewards: [{
+				count: 3
+				id: "6A16000000000301"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 4L
+					id: "6A16000000000333"
+					item: { count: 1, id: "minecraft:lead" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6A16000000000334"
+					item: { count: 1, id: "minecraft:saddle" }
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A16000000000200"]
+			id: "6A16000000000400"
+			rewards: [{
+				count: 5
+				id: "6A16000000000401"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 2L
+					id: "6A16000000000433"
+					item: { count: 1, id: "minecraft:enchanted_golden_apple" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "6A16000000000434"
+					item: { count: 1, id: "minecraft:golden_carrot" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6A16000000000300"]
+			id: "6A16000000000500"
+			rewards: [{
+				count: 5
+				id: "6A16000000000501"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 2L
+					id: "6A16000000000533"
+					item: { count: 1, id: "doggytalents:master_treat" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6A16000000000534"
+					item: { components: { "ftbquests:missing_item": "doggytalents:dire_treat" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6A16000000000200"
+				"6A16000000000300"
+			]
+			id: "6A16000000000600"
+			rewards: [{
+				count: 5
+				id: "6A16000000000601"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [
+				{
+					id: "6A16000000000633"
+					item: { count: 1, id: "minecraft:enchanted_golden_apple" }
+					type: "item"
+				}
+				{
+					id: "6A16000000000634"
+					item: { components: { "ftbquests:missing_item": "doggytalents:dire_treat" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6A16000000000635"
+					item: { count: 1, id: "minecraft:name_tag" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6A16000000000400"
+				"6A16000000000600"
+			]
+			id: "6A16000000000700"
+			rewards: [{
+				count: 6
+				id: "6A16000000000701"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 4L
+					id: "6A16000000000733"
+					item: { count: 1, id: "minecraft:enchanted_golden_apple" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6A16000000000734"
+					item: { count: 1, id: "minecraft:cake" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6A16000000000500"
+				"6A16000000000600"
+			]
+			id: "6A16000000000800"
+			rewards: [{
+				count: 6
+				id: "6A16000000000801"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 2L
+					id: "6A16000000000833"
+					item: { count: 1, id: "minecraft:wolf_armor" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6A16000000000834"
+					item: { count: 1, id: "minecraft:saddle" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6A16000000000700"
+				"6A16000000000800"
+			]
+			id: "6A16000000000900"
+			rewards: [
+				{
+					count: 5
+					id: "6A16000000000901"
+					item: {
+						count: 1
+						id: "kubejs:mystery_crate_tech"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "6A16000000000902"
+					item: {
+						count: 1
+						id: "kubejs:architect_token"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.4d
+			tasks: [
+				{
+					count: 4L
+					id: "6A16000000000933"
+					item: { count: 1, id: "minecraft:enchanted_golden_apple" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6A16000000000934"
+					item: { components: { "ftbquests:missing_item": "doggytalents:dire_treat" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6A16000000000935"
+					item: { count: 1, id: "minecraft:wolf_armor" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6A16000000000936"
+					item: { count: 1, id: "minecraft:saddle" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6A16000000000100"]
+			hide_dependency_lines: true
+			id: "6A16000000000A00"
+			invisible: true
+			rewards: [{
+				count: 5
+				id: "6A16000000000A01"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "star"
+			size: 1.25d
+			tasks: [
+				{
+					count: 16L
+					id: "6A16000000000A33"
+					item: { count: 1, id: "minecraft:shroomlight" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6A16000000000A34"
+					item: { count: 1, id: "minecraft:mycelium" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 2.5d
+		}
+	]
+}

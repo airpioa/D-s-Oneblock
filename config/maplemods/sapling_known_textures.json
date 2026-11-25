@@ -1,0 +1,84 @@
+{
+  "bee": [
+    "maplesbeesseasonalvariants:texture/entity/bee/_default/normal_bee.png",
+    "maplesbeesseasonalvariants:texture/entity/bee/autumn/flannel_bee.png",
+    "maplesbeesseasonalvariants:texture/entity/bee/autumn/pumpkin_bee.png",
+    "maplesbeesseasonalvariants:texture/entity/bee/christmas/candycane_bee.png",
+    "maplesbeesseasonalvariants:texture/entity/bee/christmas/gingerbread_bee.png",
+    "maplesbeesseasonalvariants:texture/entity/bee/christmas/rudolph_bee.png",
+    "maplesbeesseasonalvariants:texture/entity/bee/christmas/santa_bee.png",
+    "maplesbeesseasonalvariants:texture/entity/bee/christmas/xmastree_bee.png",
+    "maplesbeesseasonalvariants:texture/entity/bee/spring/cherry_blossom_bee.png",
+    "maplesbeesseasonalvariants:texture/entity/bee/spring/flower_bee.png",
+    "maplesbeesseasonalvariants:texture/entity/bee/summer/midsommar_bee.png",
+    "maplesbeesseasonalvariants:texture/entity/bee/summer/watermelon_bee.png",
+    "maplesbeesseasonalvariants:texture/entity/bee/winter/frozen_bee.png",
+    "maplesbeesseasonalvariants:texture/entity/bee/winter/snow_covered_bee.png"
+  ],
+  "chicken": [
+    "mapleschickensseasonalvariants:texture/entity/chicken/_default/normal_chicken.png",
+    "mapleschickensseasonalvariants:texture/entity/chicken/autumn/flannel_chicken.png",
+    "mapleschickensseasonalvariants:texture/entity/chicken/autumn/orange_chicken.png",
+    "mapleschickensseasonalvariants:texture/entity/chicken/spring/cherry_blossom_chicken.png",
+    "mapleschickensseasonalvariants:texture/entity/chicken/spring/flower_chicken.png",
+    "mapleschickensseasonalvariants:texture/entity/chicken/summer/midsommar_chicken.png",
+    "mapleschickensseasonalvariants:texture/entity/chicken/summer/watermelon_chicken.png",
+    "mapleschickensseasonalvariants:texture/entity/chicken/winter/frozen_chicken.png",
+    "mapleschickensseasonalvariants:texture/entity/chicken/winter/snow_covered_chicken.png"
+  ],
+  "creeper": [
+    "maplescreepersseasonalvariants:texture/entity/creeper/_default/normal_creeper.png",
+    "maplescreepersseasonalvariants:texture/entity/creeper/autumn/flannel_creeper.png",
+    "maplescreepersseasonalvariants:texture/entity/creeper/autumn/pumpkin_creeper.png",
+    "maplescreepersseasonalvariants:texture/entity/creeper/spring/cherry_blossom_creeper.png",
+    "maplescreepersseasonalvariants:texture/entity/creeper/spring/flower_creeper.png",
+    "maplescreepersseasonalvariants:texture/entity/creeper/summer/midsommar_creeper.png",
+    "maplescreepersseasonalvariants:texture/entity/creeper/summer/sunflower_creeper.png",
+    "maplescreepersseasonalvariants:texture/entity/creeper/winter/frozen_creeper.png",
+    "maplescreepersseasonalvariants:texture/entity/creeper/winter/snow_covered_creeper.png"
+  ],
+  "frog": [
+    "maplesfrogsseasonalvariants:texture/entity/frog/_default/normal_frog.png",
+    "maplesfrogsseasonalvariants:texture/entity/frog/autumn/flannel_frog.png",
+    "maplesfrogsseasonalvariants:texture/entity/frog/autumn/pumpkin_frog.png",
+    "maplesfrogsseasonalvariants:texture/entity/frog/spring/cherry_blossom_frog.png",
+    "maplesfrogsseasonalvariants:texture/entity/frog/spring/flower_frog.png",
+    "maplesfrogsseasonalvariants:texture/entity/frog/summer/midsommar_frog.png",
+    "maplesfrogsseasonalvariants:texture/entity/frog/summer/watermelon_frog.png",
+    "maplesfrogsseasonalvariants:texture/entity/frog/winter/frozen_frog.png",
+    "maplesfrogsseasonalvariants:texture/entity/frog/winter/snow_covered_frog.png"
+  ],
+  "parrot": [
+    "maplesparrotsseasonalvariants:texture/entity/parrot/_default/normal_parrot.png",
+    "maplesparrotsseasonalvariants:texture/entity/parrot/autumn/flannel_parrot.png",
+    "maplesparrotsseasonalvariants:texture/entity/parrot/autumn/pumpkin_parrot.png",
+    "maplesparrotsseasonalvariants:texture/entity/parrot/spring/cherry_blossom_parrot.png",
+    "maplesparrotsseasonalvariants:texture/entity/parrot/spring/flower_parrot.png",
+    "maplesparrotsseasonalvariants:texture/entity/parrot/summer/midsommar_parrot.png",
+    "maplesparrotsseasonalvariants:texture/entity/parrot/summer/watermelon_parrot.png",
+    "maplesparrotsseasonalvariants:texture/entity/parrot/winter/frozen_parrot.png",
+    "maplesparrotsseasonalvariants:texture/entity/parrot/winter/snow_covered_parrot.png"
+  ],
+  "pig": [
+    "maplespigsseasonalvariants:texture/entity/pig/_default/normal_pig.png",
+    "maplespigsseasonalvariants:texture/entity/pig/autumn/flannel_pig.png",
+    "maplespigsseasonalvariants:texture/entity/pig/autumn/pumpkin_pig.png",
+    "maplespigsseasonalvariants:texture/entity/pig/spring/cherry_blossom_pig.png",
+    "maplespigsseasonalvariants:texture/entity/pig/spring/flower_pig.png",
+    "maplespigsseasonalvariants:texture/entity/pig/summer/midsommar_pig.png",
+    "maplespigsseasonalvariants:texture/entity/pig/summer/watermelon_pig.png",
+    "maplespigsseasonalvariants:texture/entity/pig/winter/frozen_pig.png",
+    "maplespigsseasonalvariants:texture/entity/pig/winter/snow_covered_pig.png"
+  ],
+  "rabbit": [
+    "maplesrabbitsseasonalvariants:texture/entity/rabbit/_default/normal_rabbit.png",
+    "maplesrabbitsseasonalvariants:texture/entity/rabbit/autumn/flannel_rabbit.png",
+    "maplesrabbitsseasonalvariants:texture/entity/rabbit/autumn/pumpkin_rabbit.png",
+    "maplesrabbitsseasonalvariants:texture/entity/rabbit/spring/cherry_blossom_rabbit.png",
+    "maplesrabbitsseasonalvariants:texture/entity/rabbit/spring/flower_rabbit.png",
+    "maplesrabbitsseasonalvariants:texture/entity/rabbit/summer/midsommar_rabbit.png",
+    "maplesrabbitsseasonalvariants:texture/entity/rabbit/summer/watermelon_rabbit.png",
+    "maplesrabbitsseasonalvariants:texture/entity/rabbit/winter/frozen_rabbit.png",
+    "maplesrabbitsseasonalvariants:texture/entity/rabbit/winter/snow_covered_rabbit.png"
+  ]
+}

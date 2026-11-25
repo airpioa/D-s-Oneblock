@@ -1,0 +1,681 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "act_03_04_harvest_pack"
+	group: "1000000000000001"
+	icon: {
+		id: "botanypots:terracotta_hopper_botany_pot"
+	}
+	id: "4100000000000002"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6A02000000000100"]
+			id: "6A03000000000100"
+			rewards: [{
+				count: 2
+				id: "6A03000000000101"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "oneblock:phase3"
+				criterion: ""
+				id: "6A03000000000151"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A03000000000100"]
+			id: "6A03000000000200"
+			rewards: [{
+				count: 2
+				id: "6A03000000000201"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "6A03000000000233"
+				item: { count: 1, id: "botanypots:terracotta_hopper_botany_pot" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A03000000000100"]
+			id: "6A03000000000300"
+			rewards: [
+				{
+					count: 8
+					id: "6A03000000000301"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6A03000000000302"
+					item: {
+						count: 1
+						id: "kubejs:sky_token"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A03000000000333"
+					item: { count: 1, id: "farmersdelight:cooking_pot" }
+					type: "item"
+				}
+				{
+					id: "6A03000000000334"
+					item: { count: 1, id: "farmersdelight:stove" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A03000000000200"]
+			id: "6A03000000000400"
+			rewards: [{
+				count: 3
+				id: "6A03000000000401"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 2L
+					id: "6A03000000000433"
+					item: { count: 1, id: "create:brass_funnel" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6A03000000000434"
+					item: { count: 1, id: "create:item_vault" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6A03000000000300"]
+			id: "6A03000000000500"
+			rewards: [{
+				count: 3
+				id: "6A03000000000501"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A03000000000533"
+					item: { count: 1, id: "vinery:grapevine_pot" }
+					type: "item"
+				}
+				{
+					id: "6A03000000000534"
+					item: { count: 1, id: "vinery:fermentation_barrel" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6A03000000000200"
+				"6A03000000000300"
+			]
+			id: "6A03000000000600"
+			rewards: [{
+				count: 3
+				id: "6A03000000000601"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [
+				{
+					id: "6A03000000000633"
+					item: { count: 1, id: "farmersdelight:cutting_board" }
+					type: "item"
+				}
+				{
+					id: "6A03000000000634"
+					item: { count: 1, id: "farmersdelight:iron_knife" }
+					type: "item"
+				}
+				{
+					id: "6A03000000000635"
+					item: { count: 1, id: "create:mechanical_mixer" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6A03000000000400"
+				"6A03000000000600"
+			]
+			id: "6A03000000000700"
+			rewards: [{
+				count: 3
+				id: "6A03000000000701"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 2L
+					id: "6A03000000000733"
+					item: { count: 1, id: "create:crushing_wheel" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6A03000000000734"
+					item: { count: 1, id: "create:depot" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6A03000000000500"
+				"6A03000000000600"
+			]
+			id: "6A03000000000800"
+			rewards: [{
+				count: 3
+				id: "6A03000000000801"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A03000000000833"
+					item: { count: 1, id: "minecraft:cake" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6A03000000000834"
+					item: { count: 1, id: "minecraft:pumpkin_pie" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6A03000000000700"
+				"6A03000000000800"
+			]
+			id: "6A03000000000900"
+			rewards: [
+				{
+					id: "6A03000000000901"
+					item: {
+						count: 1
+						id: "toms_storage:storage_terminal"
+					}
+					type: "item"
+				}
+				{
+					id: "6A03000000000902"
+					item: {
+						count: 1
+						id: "kubejs:architect_token"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.4d
+			tasks: [
+				{
+					count: 2L
+					id: "6A03000000000933"
+					item: { count: 1, id: "botanypots:terracotta_hopper_botany_pot" }
+					type: "item"
+				}
+				{
+					id: "6A03000000000934"
+					item: { count: 1, id: "farmersdelight:cooking_pot" }
+					type: "item"
+				}
+				{
+					id: "6A03000000000935"
+					item: { count: 1, id: "vinery:fermentation_barrel" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6A03000000000936"
+					item: { count: 1, id: "create:crushing_wheel" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6A03000000000100"]
+			hide_dependency_lines: true
+			id: "6A03000000000A00"
+			invisible: true
+			rewards: [{
+				count: 4
+				id: "6A03000000000A01"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "star"
+			size: 1.25d
+			tasks: [
+				{
+					count: 4L
+					id: "6A03000000000A33"
+					item: { count: 1, id: "minecraft:honey_bottle" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6A03000000000A34"
+					item: { count: 1, id: "minecraft:golden_carrot" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6A03000000000100"]
+			id: "6A04000000000100"
+			rewards: [
+				{
+					count: 3
+					id: "6A04000000000101"
+					item: {
+						count: 1
+						id: "kubejs:sky_token"
+					}
+					type: "item"
+				}
+				{
+					id: "6A04000000000102"
+					item: {
+						count: 1
+						id: "minecraft:name_tag"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "oneblock:phase4"
+				criterion: ""
+				id: "6A04000000000151"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A04000000000100"]
+			id: "6A04000000000200"
+			rewards: [{
+				count: 2
+				id: "6A04000000000201"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				count: 2L
+				id: "6A04000000000233"
+				item: { count: 1, id: "doggytalents:training_treat" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A04000000000100"]
+			id: "6A04000000000300"
+			rewards: [{
+				count: 2
+				id: "6A04000000000301"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A04000000000333"
+					item: { count: 1, id: "doggytalents:dog_bed" }
+					type: "item"
+				}
+				{
+					id: "6A04000000000334"
+					item: { count: 1, id: "doggytalents:food_bowl" }
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A04000000000200"]
+			id: "6A04000000000400"
+			rewards: [{
+				count: 3
+				id: "6A04000000000401"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 2L
+					id: "6A04000000000433"
+					item: { count: 1, id: "doggytalents:super_treat" }
+					type: "item"
+				}
+				{
+					id: "6A04000000000434"
+					item: { count: 1, id: "doggytalents:whistle" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6A04000000000300"]
+			id: "6A04000000000500"
+			rewards: [{
+				count: 3
+				id: "6A04000000000501"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A04000000000533"
+					item: { count: 1, id: "minecraft:wolf_armor" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6A04000000000534"
+					item: { count: 1, id: "minecraft:bone" }
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6A04000000000200"
+				"6A04000000000300"
+			]
+			id: "6A04000000000600"
+			rewards: [{
+				count: 3
+				id: "6A04000000000601"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [
+				{
+					id: "6A04000000000633"
+					item: { count: 1, id: "sophisticatedbackpacks:feeding_upgrade" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6A04000000000634"
+					item: { count: 1, id: "minecraft:lead" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6A04000000000400"
+				"6A04000000000600"
+			]
+			id: "6A04000000000700"
+			rewards: [{
+				count: 3
+				id: "6A04000000000701"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 2L
+					id: "6A04000000000733"
+					item: { count: 1, id: "doggytalents:master_treat" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6A04000000000734"
+					item: { count: 1, id: "minecraft:name_tag" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6A04000000000500"
+				"6A04000000000600"
+			]
+			id: "6A04000000000800"
+			rewards: [{
+				count: 3
+				id: "6A04000000000801"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 8L
+					id: "6A04000000000833"
+					item: { count: 1, id: "minecraft:hay_block" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6A04000000000834"
+					item: { count: 1, id: "minecraft:white_wool" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6A04000000000700"
+				"6A04000000000800"
+			]
+			id: "6A04000000000900"
+			rewards: [
+				{
+					count: 2
+					id: "6A04000000000901"
+					item: {
+						count: 1
+						id: "kubejs:mystery_crate_basic"
+					}
+					type: "item"
+				}
+				{
+					id: "6A04000000000902"
+					item: {
+						count: 1
+						id: "kubejs:architect_token"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.4d
+			tasks: [
+				{
+					count: 4L
+					id: "6A04000000000933"
+					item: { count: 1, id: "doggytalents:super_treat" }
+					type: "item"
+				}
+				{
+					id: "6A04000000000934"
+					item: { count: 1, id: "doggytalents:dog_bed" }
+					type: "item"
+				}
+				{
+					id: "6A04000000000935"
+					item: { count: 1, id: "minecraft:wolf_armor" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6A04000000000936"
+					item: { count: 1, id: "minecraft:bone_block" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6A04000000000100"]
+			hide_dependency_lines: true
+			id: "6A04000000000A00"
+			invisible: true
+			rewards: [{
+				id: "6A04000000000A01"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "star"
+			size: 1.25d
+			tasks: [
+				{
+					id: "6A04000000000A33"
+					item: { count: 1, id: "doggytalents:master_treat" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6A04000000000A34"
+					item: { count: 1, id: "minecraft:golden_apple" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 2.5d
+		}
+	]
+}

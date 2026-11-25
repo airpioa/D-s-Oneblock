@@ -1,0 +1,695 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "act_13_14_quantum_biomes"
+	group: "1000000000000003"
+	icon: {
+		id: "kubejs:biome_prism"
+	}
+	id: "4100000000000007"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6A0C000000000100"]
+			id: "6A0D000000000100"
+			rewards: [{
+				count: 2
+				id: "6A0D000000000101"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "oneblock:phase13"
+				criterion: ""
+				id: "6A0D000000000151"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A0D000000000100"]
+			id: "6A0D000000000200"
+			rewards: [
+				{
+					count: 2
+					id: "6A0D000000000201"
+					item: {
+						count: 1
+						id: "ae2:crafting_unit"
+					}
+					type: "item"
+				}
+				{
+					id: "6A0D000000000202"
+					item: {
+						count: 1
+						id: "kubejs:architect_token"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 2L
+					id: "6A0D000000000233"
+					item: { count: 1, id: "ae2:pattern_provider" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6A0D000000000234"
+					item: { count: 1, id: "ae2:molecular_assembler" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A0D000000000100"]
+			id: "6A0D000000000300"
+			rewards: [{
+				count: 2
+				id: "6A0D000000000301"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 8L
+					id: "6A0D000000000333"
+					item: { count: 1, id: "mekanism:sps_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6A0D000000000334"
+					item: { count: 1, id: "mekanism:sps_port" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A0D000000000200"]
+			id: "6A0D000000000400"
+			rewards: [{
+				count: 2
+				id: "6A0D000000000401"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A0D000000000433"
+					item: { count: 1, id: "ae2:pattern_encoding_terminal" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6A0D000000000434"
+					item: { count: 1, id: "ae2:crafting_accelerator" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6A0D000000000300"]
+			id: "6A0D000000000500"
+			rewards: [{
+				count: 3
+				id: "6A0D000000000501"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A0D000000000533"
+					item: { count: 1, id: "mekanism:mekasuit_helmet" }
+					type: "item"
+				}
+				{
+					id: "6A0D000000000534"
+					item: { count: 1, id: "mekanism:mekasuit_bodyarmor" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6A0D000000000200"
+				"6A0D000000000300"
+			]
+			id: "6A0D000000000600"
+			rewards: [{
+				count: 3
+				id: "6A0D000000000601"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [
+				{
+					count: 4L
+					id: "6A0D000000000633"
+					item: { count: 1, id: "ae2:crafting_unit" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6A0D000000000634"
+					item: { count: 1, id: "mekanism:ingot_refined_obsidian" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6A0D000000000635"
+					item: { count: 1, id: "mekanism:pellet_polonium" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6A0D000000000400"
+				"6A0D000000000600"
+			]
+			id: "6A0D000000000700"
+			rewards: [{
+				count: 3
+				id: "6A0D000000000701"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 2L
+					id: "6A0D000000000733"
+					item: { count: 1, id: "ae2:item_storage_cell_64k" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6A0D000000000734"
+					item: { count: 1, id: "ae2:pattern_provider" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6A0D000000000500"
+				"6A0D000000000600"
+			]
+			id: "6A0D000000000800"
+			rewards: [{
+				count: 3
+				id: "6A0D000000000801"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A0D000000000833"
+					item: { count: 1, id: "mekanism:mekasuit_pants" }
+					type: "item"
+				}
+				{
+					id: "6A0D000000000834"
+					item: { count: 1, id: "mekanism:mekasuit_boots" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6A0D000000000700"
+				"6A0D000000000800"
+			]
+			id: "6A0D000000000900"
+			rewards: [
+				{
+					count: 2
+					id: "6A0D000000000901"
+					item: {
+						count: 1
+						id: "kubejs:mystery_crate_tech"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "6A0D000000000902"
+					item: {
+						count: 1
+						id: "kubejs:architect_token"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.4d
+			tasks: [
+				{
+					count: 4L
+					id: "6A0D000000000933"
+					item: { count: 1, id: "ae2:pattern_provider" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6A0D000000000934"
+					item: { count: 1, id: "ae2:crafting_accelerator" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6A0D000000000935"
+					item: { count: 1, id: "mekanism:sps_casing" }
+					type: "item"
+				}
+				{
+					id: "6A0D000000000936"
+					item: { count: 1, id: "mekanism:mekasuit_helmet" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6A0D000000000100"]
+			hide_dependency_lines: true
+			id: "6A0D000000000A00"
+			invisible: true
+			rewards: [{
+				count: 4
+				id: "6A0D000000000A01"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "star"
+			size: 1.25d
+			tasks: [
+				{
+					count: 4L
+					id: "6A0D000000000A33"
+					item: { count: 1, id: "mekanism:block_refined_obsidian" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6A0D000000000A34"
+					item: { count: 1, id: "ae2:item_storage_cell_64k" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6A0D000000000100"]
+			id: "6A0E000000000100"
+			rewards: [{
+				count: 2
+				id: "6A0E000000000101"
+				item: {
+					count: 1
+					id: "kubejs:biome_prism"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "oneblock:phase14"
+				criterion: ""
+				id: "6A0E000000000151"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A0E000000000100"]
+			id: "6A0E000000000200"
+			rewards: [{
+				id: "6A0E000000000201"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6A0E000000000233"
+					item: { count: 1, id: "kubejs:biome_prism" }
+					type: "item"
+				}
+				{
+					id: "6A0E000000000234"
+					item: { count: 1, id: "kubejs:biome_surveyor" }
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A0E000000000100"]
+			id: "6A0E000000000300"
+			rewards: [{
+				count: 8
+				id: "6A0E000000000301"
+				item: {
+					count: 1
+					id: "kubejs:sky_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "6A0E000000000333"
+				item: { count: 1, id: "naturescompass:naturescompass" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A0E000000000200"]
+			id: "6A0E000000000400"
+			rewards: [{
+				count: 2
+				id: "6A0E000000000401"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 16L
+					id: "6A0E000000000433"
+					item: { count: 1, id: "minecraft:amethyst_shard" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6A0E000000000434"
+					item: { count: 1, id: "minecraft:tinted_glass" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6A0E000000000300"]
+			id: "6A0E000000000500"
+			rewards: [{
+				count: 2
+				id: "6A0E000000000501"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 4L
+					id: "6A0E000000000533"
+					item: { count: 1, id: "botanypots:terracotta_hopper_botany_pot" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "6A0E000000000534"
+					item: { count: 1, id: "minecraft:moss_block" }
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6A0E000000000200"
+				"6A0E000000000300"
+			]
+			id: "6A0E000000000600"
+			rewards: [{
+				count: 2
+				id: "6A0E000000000601"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [
+				{
+					count: 16L
+					id: "6A0E000000000633"
+					item: { count: 1, id: "minecraft:podzol" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6A0E000000000634"
+					item: { count: 1, id: "minecraft:mycelium" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6A0E000000000635"
+					item: { count: 1, id: "minecraft:packed_ice" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6A0E000000000400"
+				"6A0E000000000600"
+			]
+			id: "6A0E000000000700"
+			rewards: [{
+				count: 2
+				id: "6A0E000000000701"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 2L
+					id: "6A0E000000000733"
+					item: { count: 1, id: "kubejs:biome_prism" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "6A0E000000000734"
+					item: { count: 1, id: "minecraft:cherry_log" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6A0E000000000500"
+				"6A0E000000000600"
+			]
+			id: "6A0E000000000800"
+			rewards: [{
+				count: 2
+				id: "6A0E000000000801"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 16L
+					id: "6A0E000000000833"
+					item: { count: 1, id: "minecraft:bamboo_block" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6A0E000000000834"
+					item: { count: 1, id: "minecraft:amethyst_block" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6A0E000000000700"
+				"6A0E000000000800"
+			]
+			id: "6A0E000000000900"
+			rewards: [
+				{
+					count: 2
+					id: "6A0E000000000901"
+					item: {
+						count: 1
+						id: "kubejs:biome_prism"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6A0E000000000902"
+					item: {
+						count: 1
+						id: "kubejs:architect_token"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.4d
+			tasks: [
+				{
+					count: 2L
+					id: "6A0E000000000933"
+					item: { count: 1, id: "kubejs:biome_prism" }
+					type: "item"
+				}
+				{
+					id: "6A0E000000000934"
+					item: { count: 1, id: "kubejs:biome_surveyor" }
+					type: "item"
+				}
+				{
+					id: "6A0E000000000935"
+					item: { count: 1, id: "naturescompass:naturescompass" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6A0E000000000936"
+					item: { count: 1, id: "minecraft:amethyst_block" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6A0E000000000100"]
+			hide_dependency_lines: true
+			id: "6A0E000000000A00"
+			invisible: true
+			rewards: [{
+				count: 3
+				id: "6A0E000000000A01"
+				item: {
+					count: 1
+					id: "kubejs:architect_token"
+				}
+				type: "item"
+			}]
+			shape: "star"
+			size: 1.25d
+			tasks: [
+				{
+					count: 2L
+					id: "6A0E000000000A33"
+					item: { count: 1, id: "minecraft:spore_blossom" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6A0E000000000A34"
+					item: { count: 1, id: "minecraft:azalea" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 2.5d
+		}
+	]
+}
